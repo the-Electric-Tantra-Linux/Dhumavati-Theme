@@ -2,7 +2,7 @@
 // it gets @if ed depending on $variant
 
 // /***** color-palette *****/
-$canvas_red: #F54C53;
+$canvas_red: #f54c53;
 $canvas_light_red: #ff3684;
 $canvas_pink: #ff59b8;
 $canvas_purple: #6c71c4;
@@ -21,20 +21,20 @@ $canvas_yellow: #f0ffaa;
 $canvas_dark_yellow: #f9f871;
 $canvas_amber: #ca8f00;
 $canvas_orange: #ffa56b;
-$canvas_deep_orange: #FF9868;
+$canvas_deep_orange: #ff9868;
 $canvas_brown: #0e121a;
 $canvas_grey: #0e121a;
 $canvas_dark_grey: #404756;
 $canvas_blue_grey: #404756;
 $canvas_green_grey: #404756;
-$canvas_black: #2F303D;
+$canvas_black: #2f303d;
 $canvas_white: #edeeff;
 // /***** color-palette *****/
 
-$base_color: if($variant == "light", #e9e9ff, #2F303D);
+$base_color: if($variant == "light", #e9e9ff, #2f303d);
 $text_color: if($variant == "light", #edeeff, #e9e9ff);
-$bg_color: if($variant == "light", #edeeff, #2F303D);
-$fg_color: if($variant == "light", #2F303D, #edeeff);
+$bg_color: if($variant == "light", #edeeff, #2f303d);
+$fg_color: if($variant == "light", #2f303d, #edeeff);
 
 $alt_base_color: if(
   $variant == "light",
@@ -97,7 +97,11 @@ $solid_borders_color: if(
   darken($bg_color, 15%),
   darken($bg_color, 2%)
 );
-$highlight: if($variant == "light", rgba($canvas_white, 0.3), rgba($canvas_white, 0.1));
+$highlight: if(
+  $variant == "light",
+  rgba($canvas_white, 0.3),
+  rgba($canvas_white, 0.1)
+);
 $alt_highlight_color: rgba($canvas_white, 0.2);
 
 $link_color: if($variant == "light", $canvas_blue, $canvas_deep_purple);

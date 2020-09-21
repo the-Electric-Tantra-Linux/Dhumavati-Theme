@@ -2,12 +2,13 @@
 // Special Tabs
 //
 .nautilus-window notebook {
-
   > header.top {
     margin-top: -1px;
     padding: 0 2px 3px 2px;
 
-    > tabs > tab + tab { margin-left: -8px; }
+    > tabs > tab + tab {
+      margin-left: -8px;
+    }
 
     > tabs > tab {
       border: none;
@@ -15,11 +16,17 @@
       padding-right: 16px;
 
       &:hover {
-        background-color: if($variant =='light', rgba($header_bg, 0.15), rgba($header_bg, 0.5));
+        background-color: if(
+          $variant == "light",
+          rgba($header_bg, 0.15),
+          rgba($header_bg, 0.5)
+        );
         border-image-width: 8px 16px 8px 16px;
         border-image-repeat: stretch;
-        border-image-source: -gtk-scaled(url("assets/tabs-hover#{$asset_suffix}.png"),
-                                         url("assets/tabs-hover#{$asset_suffix}@2.png"));
+        border-image-source: -gtk-scaled(
+          url("assets/tabs-hover#{$asset_suffix}.png"),
+          url("assets/tabs-hover#{$asset_suffix}@2.png")
+        );
       }
 
       &:checked {
@@ -29,16 +36,20 @@
         border: none;
         border-image-width: 8px 16px 8px 16px;
         border-image-repeat: stretch;
-        border-image-source: -gtk-scaled(url("assets/tabs-active#{$asset_suffix}.png"),
-                                         url("assets/tabs-active#{$asset_suffix}@2.png"));
+        border-image-source: -gtk-scaled(
+          url("assets/tabs-active#{$asset_suffix}.png"),
+          url("assets/tabs-active#{$asset_suffix}@2.png")
+        );
       }
 
       &:checked:backdrop {
         transition: $backdrop_transition;
         color: rgba($header_fg, 0.5);
         background-color: $header_bg_backdrop;
-        border-image-source: -gtk-scaled(url("assets/tabs-active-backdrop#{$asset_suffix}.png"),
-                                         url("assets/tabs-active-backdrop#{$asset_suffix}@2.png"));
+        border-image-source: -gtk-scaled(
+          url("assets/tabs-active-backdrop#{$asset_suffix}.png"),
+          url("assets/tabs-active-backdrop#{$asset_suffix}@2.png")
+        );
       }
     }
   }
@@ -65,6 +76,8 @@ terminal-window,
       }
     }
 
-    scrollbar { background: none; }
+    scrollbar {
+      background: none;
+    }
   }
 }
