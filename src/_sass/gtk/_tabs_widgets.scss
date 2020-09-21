@@ -17,7 +17,6 @@
       &:hover {
         background-color: if($variant =='light', rgba($header_bg, 0.15), rgba($header_bg, 0.5));
         border-image-width: 8px 16px 8px 16px;
-        border-image-slice: 8 16 8 16;
         border-image-repeat: stretch;
         border-image-source: -gtk-scaled(url("assets/tabs-hover#{$asset_suffix}.png"),
                                          url("assets/tabs-hover#{$asset_suffix}@2.png"));
@@ -29,7 +28,6 @@
         box-shadow: none;
         border: none;
         border-image-width: 8px 16px 8px 16px;
-        border-image-slice: 8 16 8 16;
         border-image-repeat: stretch;
         border-image-source: -gtk-scaled(url("assets/tabs-active#{$asset_suffix}.png"),
                                          url("assets/tabs-active#{$asset_suffix}@2.png"));

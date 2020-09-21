@@ -1,36 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3adce57b-71c3-4cbd-9f86-7d40911adb34" name="Default Changelist" comment="" />
+    <list default="true" id="3adce57b-71c3-4cbd-9f86-7d40911adb34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_sass/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_sass/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_sass/gtk/_tabs_widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_sass/gtk/_tabs_widgets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gtk-3.0/gtk-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gtk-3.0/gtk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/index.theme" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/index.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/application-x-gnome-saved-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/application-x-gnome-saved-search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/bookmark-missing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/bookmark-missing.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-fileopen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-fileopen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-art.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-art.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-books.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-books.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-documents.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-documents.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-dropbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-dropbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-google-drive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-google-drive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-hdd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-hdd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-move.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-move.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-music.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-music.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-pictures.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-pictures.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-projects.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-projects.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-publicshare.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-publicshare.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-recent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-recent.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-rss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-rss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-saved-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-saved-search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-steam.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-steam.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-system.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-system.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-templates.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-templates.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-ubuntu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-ubuntu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-video.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-video.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-vm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-vm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder-wine.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder-wine.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-network.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-network.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-user-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-user-desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/default-user-home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/default-user-home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/edittrash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/edittrash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/emptytrash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/emptytrash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/fileopen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/fileopen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-art.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-art.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-books.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-books.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-documents.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-documents.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-downloads.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-downloads.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-drag-accept.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-drag-accept.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-dropbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-dropbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-google-drive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-google-drive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-hdd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-hdd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-images.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-images.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-move.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-move.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-music.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-music.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-pictures.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-pictures.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-projects.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-projects.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-publicshare.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-publicshare.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-recent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-recent.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-remote-ftp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-remote-ftp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-remote-nfs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-remote-nfs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-remote-smb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-remote-smb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-remote-ssh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-remote-ssh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-remote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-remote.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-rss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-rss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-saved-search-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-saved-search-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-saved-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-saved-search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-sound.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-sound.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-steam.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-steam.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-system.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-system.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-templates.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-templates.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-ubuntu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-ubuntu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-video.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-video.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-videos.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-videos.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-visiting.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-visiting.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-vm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-vm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder-wine.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder-wine.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder_download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder_download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder_downloads.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder_downloads.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder_home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder_home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder_images.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder_images.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder_open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folder_pictures.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folder_pictures.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folders-documents.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folders-documents.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folders-downloads.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folders-downloads.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folders-music.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folders-music.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folders-publicshare.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folders-publicshare.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/folders-videos.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/folders-videos.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-ccdesktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-ccdesktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-desktop-config.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-desktop-config.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-dev-network.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-dev-network.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-dev-trash-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-dev-trash-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-dev-trash-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-dev-trash-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-blockdev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-blockdev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-bookmark-missing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-bookmark-missing.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-bookmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-bookmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-dav.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-dav.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-dev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-dev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-directory-accept.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-directory-accept.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-directory-visiting.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-directory-visiting.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-directory.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-directory.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-ftp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-ftp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-loading-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-loading-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-network.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-network.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-nfs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-nfs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-smb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-smb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-ssh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-ssh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-trash-empty-accept.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-trash-empty-accept.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-trash-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-trash-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-trash-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-trash-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-fs-web.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-fs-web.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-mime-x-directory-nfs-server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-mime-x-directory-nfs-server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-mime-x-directory-smb-server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-mime-x-directory-smb-server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-mime-x-directory-smb-share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-mime-x-directory-smb-share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-mime-x-directory-smb-workgroup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-mime-x-directory-smb-workgroup.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-stock-trash-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-stock-trash-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-stock-trash-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-stock-trash-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gnome-stock-trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gnome-stock-trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gtk-directory.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gtk-directory.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/gtk-network.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/gtk-network.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/inode-directory.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/inode-directory.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/library-music.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/library-music.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/neat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/neat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/network-server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/network-server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/network-workgroup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/network-workgroup.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/network.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/network.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/network_fs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/network_fs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/network_local.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/network_local.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/nfs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/nfs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/other-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/other-desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/redhat-network-server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/redhat-network-server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/redhat-system-group.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/redhat-system-group.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/samba.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/samba.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_folder-copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_folder-copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_folder-move.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_folder-move.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_music-library.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_music-library.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_shared-by-me.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_shared-by-me.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_shared-to-me.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_shared-to-me.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_trash_empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_trash_empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/stock_trash_full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/stock_trash_full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/trashcan_empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/trashcan_empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/trashcan_full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/trashcan_full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-bookmarks.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-bookmarks.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-images.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-images.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-pictures.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-pictures.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-trash-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-trash-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/user-trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/user-trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/xfce-trash_empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/xfce-trash_empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/Canvas/places/xfce-trash_full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/Dhumavati/places/xfce-trash_full.svg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="p7j70p0s" />
+  </component>
   <component name="ProjectId" id="1VmtX2niWo2DSEmJdFc0B7yvk3f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.Xresources.d/color" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.Xresources.d/color" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,20 +208,21 @@
       <updated>1577870133303</updated>
       <workItem from="1577870135843" duration="26000" />
       <workItem from="1577894418771" duration="2057000" />
+      <workItem from="1600661525669" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="755" y="368" key="FileChooserDialogImpl" timestamp="1577894477856">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="4908" y="521" width="426" height="456" key="FileChooserDialogImpl" timestamp="1600661886357">
+      <screen x="3840" y="0" width="2560" height="1440" />
     </state>
-    <state x="755" y="368" key="FileChooserDialogImpl/1485.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1577894477856" />
-    <state x="493" y="230" width="937" height="743" key="SettingsEditor" timestamp="1577896354865">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="4908" y="521" width="426" height="456" key="FileChooserDialogImpl/3840.0.2560.1440/1920.0.1920.1080/0.0.1920.1080@3840.0.2560.1440" timestamp="1600661886357" />
+    <state x="1932" y="58" width="1896" height="968" key="dock-window-1" timestamp="1600661968502">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="493" y="230" width="937" height="743" key="SettingsEditor/1485.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1577896354865" />
+    <state x="1932" y="58" width="1896" height="968" key="dock-window-1/3840.0.2560.1440/1920.0.1920.1080/0.0.1920.1080@3840.0.2560.1440" timestamp="1600661968502" />
   </component>
 </project>
