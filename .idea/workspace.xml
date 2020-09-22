@@ -2,335 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ecfb24-aeb1-4acb-87f2-079216405220" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_apps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-above-backdrop-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-above-backdrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-above-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-above-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-above.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-below-backdrop-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-below-backdrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-below-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-below-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-horz-scale-has-marks-below.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-above-backdrop-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-above-backdrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-above-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-above-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-above.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-below-backdrop-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-below-backdrop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-below-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-below-insensitive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/slider-vert-scale-has-marks-below.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/text-select-end-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/text-select-end.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/text-select-start-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/text-select-start.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gnome-shell/_widgets.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gnome-shell/assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gnome-shell/core" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gnome-shell/gnome-shell.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/gnome-shell.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gnome-shell/widgets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gtk-2.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gtk-3.0/assets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/gtk-3.0/gtk.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave-glow/index.theme" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/index.theme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/_widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/_widgets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/light_is_around.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/light_is_around.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/light_is_top_right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/light_is_top_right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/no_bottom_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/no_bottom_border.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/no_left_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/no_left_border.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/no_right_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/no_right_border.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/no_top_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/no_top_border.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/background/tooltip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/background/tooltip.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/dialog-button-active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/dialog-button-active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/dialog-button-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/dialog-button-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/dialog-button-insensitive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/dialog-button-insensitive.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/dialog-button-normal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/dialog-button-normal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/insensitive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/insensitive.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/normal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/normal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/shutdown-active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/shutdown-active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/shutdown-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/shutdown-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/shutdown-normal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/shutdown-normal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/small-active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/small-active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/small-hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/small-hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/small-insensitive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/small-insensitive.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/button/small-normal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/button/small-normal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/checkbox/off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/checkbox/off.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/checkbox/on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/checkbox/on.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/entry/active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/entry/active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/entry/hover.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/entry/hover.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/entry/normal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/entry/normal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/neon/aura.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/neon/aura.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/neon/aura_bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/neon/aura_bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/neon/aura_more_transparent_bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/neon/aura_more_transparent_bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/neon/aura_semi_transparent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/neon/aura_semi_transparent.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/neon/aura_transparent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/neon/aura_transparent.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/neon/ball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/neon/ball.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/neon/underline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/neon/underline.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/switch/off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/switch/off.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/assets/switch/on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/assets/switch/on.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/core/_color-palette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_color-palette.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/core/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/core/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/core/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/core/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/core/_drawing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/core/_drawing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/core/_extensions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/core/_extensions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/core/_high-contrast-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/core/_high-contrast-colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/core/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/core/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/gnome-shell.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_a11y.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_a11y.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_app-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_app-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_calendar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_check-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_check-box.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_corner-ripple.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_corner-ripple.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_dash.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_dash.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_dialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_dialogs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_entries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_entries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_hotplug.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_hotplug.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_ibus-popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_ibus-popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_keyboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_keyboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_login-dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_login-dialog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_looking-glass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_looking-glass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_message-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_message-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_network-dialog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_network-dialog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_notifications.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_notifications.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_osd.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_osd.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_overview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_overview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_panel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_popovers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_screen-shield.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_screen-shield.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_scrollbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_scrollbars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_search-entry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_search-entry.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_search-results.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_search-results.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_switcher-popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_switcher-popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_switches.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_switches.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_tiled-previews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_tiled-previews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_window-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_window-picker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_workspace-switcher.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_workspace-switcher.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gnome-shell/widgets/_workspace-thumbnails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/widgets/_workspace-thumbnails.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/apps.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/apps.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/border.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/border.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/button-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/button-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/button-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/button-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/button-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/button-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/button.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/checkbox-checked-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/checkbox-checked-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/checkbox-checked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/checkbox-checked.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/checkbox-mixed-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/checkbox-mixed-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/checkbox-mixed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/checkbox-mixed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/checkbox-unchecked-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/checkbox-unchecked-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/checkbox-unchecked-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/checkbox-unchecked-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/checkbox-unchecked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/checkbox-unchecked.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-ltr-button-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-ltr-button-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-ltr-button-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-ltr-button-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-ltr-button-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-ltr-button-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-ltr-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-ltr-button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-ltr-entry-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-ltr-entry-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-ltr-entry-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-ltr-entry-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-ltr-entry.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-ltr-entry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-rtl-button-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-rtl-button-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-rtl-button-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-rtl-button-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-rtl-button-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-rtl-button-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-rtl-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-rtl-button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-rtl-entry-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-rtl-entry-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-rtl-entry-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-rtl-entry-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/combo-entry-rtl-entry.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/combo-entry-rtl-entry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/entry-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/entry-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/entry-background-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/entry-background-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/entry-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/entry-background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/entry-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/entry-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/entry.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/entry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/focus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/focus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/frame-inline.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/frame-inline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/frame-notebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/frame-notebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/frame.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/frame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/handle-horz.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/handle-horz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/handle-vert.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/handle-vert.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-border.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-border.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-down-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-down-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-left-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-left-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-left-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-left-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-right-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-right-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-right-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-right-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-up-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-up-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/menu-pan-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/menu-pan-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-down-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-down-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-left-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-left-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-left-semi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-left-semi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-right-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-right-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-right-semi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-right-semi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-up-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-up-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/pan-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/pan-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/progressbar-horz-trough.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/progressbar-horz-trough.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/progressbar-horz.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/progressbar-horz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/progressbar-vert-trough.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/progressbar-vert-trough.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/progressbar-vert.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/progressbar-vert.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/radio-checked-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/radio-checked-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/radio-checked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/radio-checked.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/radio-mixed-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/radio-mixed-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/radio-mixed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/radio-mixed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/radio-unchecked-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/radio-unchecked-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/radio-unchecked-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/radio-unchecked-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/radio-unchecked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/radio-unchecked.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-horz-focus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-horz-focus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-horz-trough-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-horz-trough-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-horz-trough.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-horz-trough.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-slider-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-slider-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-slider-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-slider-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-slider-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-slider-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-slider.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-slider.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-vert-trough-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-vert-trough-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scale-vert-trough.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scale-vert-trough.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-horz-slider-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-horz-slider-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-horz-slider-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-horz-slider-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-horz-slider.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-horz-slider.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-horz-trough.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-horz-trough.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-slider-active-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-slider-active-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-slider-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-slider-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-slider-hover-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-slider-hover-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-slider-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-slider-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-slider-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-slider-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-slider.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-slider.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-trough-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-trough-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/scrollbar-vert-trough.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/scrollbar-vert-trough.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-down-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-down-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-down-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-down-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-down-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-down-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-down-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-down-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-up-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-up-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-up-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-up-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-up-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-up-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-ltr-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-ltr-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-down-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-down-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-down-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-down-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-down-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-down-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-up-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-up-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-up-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-up-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-up-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-up-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-rtl-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-rtl-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-up-insensitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-up-insensitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/spin-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/spin-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/tab-down-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/tab-down-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/tab-horz-gap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/tab-horz-gap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/tab-left-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/tab-left-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/tab-right-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/tab-right-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/tab-up-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/tab-up-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/tab-vert-gap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/tab-vert-gap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/tab.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-pan-down-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-pan-down-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-pan-down-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-pan-down-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-pan-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-pan-down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-pan-up-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-pan-up-active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-pan-up-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-pan-up-hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-pan-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-pan-up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-separator-ltr.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-separator-ltr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/assets/treeview-separator-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/assets/treeview-separator-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/gtkrc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/gtkrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/hacks-dark.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/hacks-dark.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/hacks.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/hacks.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/main.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/main.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-2.0/render-assets.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-2.0/render-assets.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_apps.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_color-palette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gnome-shell/core/_color-palette.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_colors-public.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_colors-public.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_drawing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_drawing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/_widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/_widgets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/apps/_baobab.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/apps/_baobab.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/apps/_nautilus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/apps/_nautilus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/apps/_software.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/apps/_software.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/dot.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/dot.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-above-backdrop-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-above-backdrop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-above-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-above-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-above.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-below-backdrop-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-below-backdrop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-below-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-below-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-horz-scale-has-marks-below.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-above-backdrop-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-above-backdrop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-above-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-above-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-above.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-below-backdrop-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-below-backdrop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-below-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-below-insensitive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/slider-vert-scale-has-marks-below.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/switch-dash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/switch-dash.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/text-select-end-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/text-select-end.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/text-select-start-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/text-select-start.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/window-backdrop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/window-backdrop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/assets/window.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/assets/window.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/gtk.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/gtk.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/render-assets.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/render-assets.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_calendar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_checks-radios.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_checks-radios.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_choosers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_choosers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_comboxboxes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_comboxboxes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_dialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_dialogs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_expanders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_expanders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_frames.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_frames.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_headerbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_headerbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_infobar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_infobar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_levelbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_levelbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_lists.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_notebook.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_notebook.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_notifications.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_notifications.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_paned.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_paned.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_pathbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_pathbars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_progressbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_progressbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_scale.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_scale.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_scrollbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_scrollbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_spinbuttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_spinbuttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_spinner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_spinner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_switch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_text-entries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_text-entries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_toolbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_toolbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_treeview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_treeview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_video.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/gtk-3.0/widgets/_window-decorations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/dhumavati/gtk-3.0/widgets/_window-decorations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/retrowave/index.theme" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/screenshots/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/screenshots/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/screenshots/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/screenshots/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/screenshots/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/screenshots/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/screenshots/4.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dhumavati-glow/gtk-3.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/screenshots" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -370,6 +50,7 @@
       <recent name="$PROJECT_DIR$/src/dhumavati-glow" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/screenshots" />
       <recent name="$PROJECT_DIR$/src/dhumavati-glow/gtk-3.0" />
       <recent name="$PROJECT_DIR$/src/dhumavati-glow/gnome-shell" />
       <recent name="$PROJECT_DIR$/src/dhumavati-glow" />
@@ -402,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600716381440</updated>
-      <workItem from="1600716382493" duration="5648000" />
+      <workItem from="1600716382493" duration="6642000" />
     </task>
     <servers />
   </component>
@@ -410,10 +91,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4858" y="517" width="526" height="472" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600732927274">
+    <state x="4858" y="546" width="526" height="472" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600734084031">
       <screen x="3840" y="0" width="2560" height="1440" />
     </state>
-    <state x="4858" y="517" width="526" height="472" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.0.2560.1440/1920.0.1920.1080/0.0.1920.1080@3840.0.2560.1440" timestamp="1600732927274" />
+    <state x="4858" y="546" width="526" height="472" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.0.2560.1440/1920.0.1920.1080/0.0.1920.1080@3840.0.2560.1440" timestamp="1600734084031" />
     <state width="505" height="444" key="SwitcherDM" timestamp="1600719042581">
       <screen x="3840" y="0" width="2560" height="1440" />
     </state>

@@ -8,12 +8,8 @@ You can compile it by running ```yarn build```
 You can copy or make a symlink to this new folder in your ```~/.themes``` folder for modifiying and using
 
 ## Screenshots and extras
-The font is "Source Code Pro Regular"
-
-![Panel](/assets/screenshots/1.jpg)
-![Settings](/assets/screenshots/2.jpg)
-![Nautilus](/assets/screenshots/3.jpg)
-![Lollypop](/assets/screenshots/4.jpg)
-
+![Screenshot 1](./assets/screenshots/1.png)
+![Screenshot 2](./assets/screenshots/2.png)
+![Screenshot 3](./assets/screenshots/3.png)
 ---
 Please report bugs, it's been a while.
