@@ -4,8 +4,8 @@
 
 @mixin tab_background(
   // draws the tab background as a background image
-  // so we can get the nice gradient (box shadow can't do gradients)
-  $d1,
+    // so we can get the nice gradient (box shadow can't do gradients)
+    $d1,
   $d2,
   $bg: $tab_active_color,
   $c1: $neon_pink,
