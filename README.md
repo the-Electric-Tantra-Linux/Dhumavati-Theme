@@ -8,8 +8,10 @@ You can compile it by running ```yarn build```
 You can copy or make a symlink to this new folder in your ```~/.themes``` folder for modifiying and using
 
 ## Screenshots and extras
+Using Paper-Mono-Dark Icons on my Awesomewm Configuration
 ![Screenshot 1](./assets/screenshots/1.png)
+
 ![Screenshot 2](./assets/screenshots/2.png)
+**Note** the Window Manager controls are part of the AwesomeWM configuration and not included with the GTK theme.
 ![Screenshot 3](./assets/screenshots/3.png)
 ---
-Please report bugs, it's been a while.

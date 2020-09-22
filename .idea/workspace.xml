@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ecfb24-aeb1-4acb-87f2-079216405220" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/screenshots/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/screenshots/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/screenshots/3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screenshots/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screenshots/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screenshots/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screenshots/4.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,18 +76,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600716381440</updated>
-      <workItem from="1600716382493" duration="6642000" />
+      <workItem from="1600716382493" duration="6917000" />
     </task>
+    <task id="LOCAL-00001" summary="adding screenshots">
+      <created>1600736242880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600736242880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding screenshots" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4858" y="546" width="526" height="472" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600734084031">
       <screen x="3840" y="0" width="2560" height="1440" />
     </state>
     <state x="4858" y="546" width="526" height="472" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.0.2560.1440/1920.0.1920.1080/0.0.1920.1080@3840.0.2560.1440" timestamp="1600734084031" />
+    <state x="4706" y="337" width="830" height="833" key="CommitChangelistDialog2" timestamp="1600736242784">
+      <screen x="3840" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4706" y="337" width="830" height="833" key="CommitChangelistDialog2/3840.0.2560.1440/1920.0.1920.1080/0.0.1920.1080@3840.0.2560.1440" timestamp="1600736242784" />
     <state width="505" height="444" key="SwitcherDM" timestamp="1600719042581">
       <screen x="3840" y="0" width="2560" height="1440" />
     </state>
