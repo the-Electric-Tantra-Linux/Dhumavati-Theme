@@ -1,0 +1,19 @@
+/* OVERVIEW */
+
+#overview {
+  spacing: 24px;
+
+  @if ($glow) {
+    $c1: $neon_pink;
+    $c2: $neon_blue;
+    background-gradient-direction: horizontal;
+    background-gradient-start: transparentize($c1, 0.7);
+    background-gradient-end: transparentize($c2, 0.7);
+  } @else {
+    background-color: transparentize($popover_active_color, 0.2);
+  }
+}
+
+.overview-controls {
+  padding-bottom: 32px;
+}

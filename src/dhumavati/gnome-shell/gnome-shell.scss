@@ -1,0 +1,10 @@
+$variant: "dark";
+$glow: true;
+
+@import "core/color-palette";
+@import "core/variables";
+@import "core/colors";
+@import "core/drawing";
+@import "core/common";
+@import "widgets";
+@import "core/extensions";

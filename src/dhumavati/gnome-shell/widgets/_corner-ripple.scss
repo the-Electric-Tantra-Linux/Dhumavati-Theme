@@ -1,0 +1,7 @@
+/* Activities Ripple */
+
+$ripple_size: 50px;
+
+.ripple-box {
+  @include use_border_image("neon", "corner", $reset: true);
+}
