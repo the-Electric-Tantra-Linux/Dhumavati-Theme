@@ -2,11 +2,11 @@
   @return scale-color($c, $alpha: percentage(-1 + $a));
 }
 
-@function gtkalpha($c,$a) {
+@function gtkalpha($c, $a) {
   @return unquote("alpha(#{$c},#{$a})");
 }
 
-$asset_suffix: if($variant == 'dark', '-dark', '');
+$asset_suffix: if($variant == "dark", "-dark", "");
 
 // sizes
 $small_size: 17px;
@@ -30,10 +30,10 @@ $longer_duration: 270ms;
 $ripple_duration: 450ms;
 
 // timing functions
-$standard_curve: cubic-bezier(0.4, 0.0, 0.2, 1);
-$deceleration_curve: cubic-bezier(0.0, 0.0, 0.2, 1);
-$acceleration_curve: cubic-bezier(0.4, 0.0, 1, 1);
-$sharp_curve: cubic-bezier(0.4, 0.0, 0.6, 1);
+$standard_curve: cubic-bezier(0.4, 0, 0.2, 1);
+$deceleration_curve: cubic-bezier(0, 0, 0.2, 1);
+$acceleration_curve: cubic-bezier(0.4, 0, 1, 1);
+$sharp_curve: cubic-bezier(0.4, 0, 0.6, 1);
 
 // transition shorthands
 $shorter_transition: all $shorter_duration $deceleration_curve;

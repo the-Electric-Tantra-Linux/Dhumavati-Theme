@@ -1,5 +1,4 @@
-
- /****************
+/****************
  * Mate Desktop *
  ****************/
 
@@ -9,7 +8,6 @@
 .atril-window .primary-toolbar toolbar {
   background: none;
 }
-
 
 //
 // Mate OSD Window
@@ -36,12 +34,16 @@ MsdOsdWindow.background.osd {
 //
 .mate-panel-menu-bar,
 panel-toplevel.background {
-
-  &, menubar { background-color: opacify($panel_bg, 1); }
+  &,
+  menubar {
+    background-color: opacify($panel_bg, 1);
+  }
 
   menubar,
   #PanelApplet label,
-  #PanelApplet image { color: $panel_fg; }
+  #PanelApplet image {
+    color: $panel_fg;
+  }
 
   // Panel buttons
   button:not(#tasklist-button) {
@@ -50,7 +52,10 @@ panel-toplevel.background {
 
   button,
   #tasklist-button {
-    label, image { color: inherit; }
+    label,
+    image {
+      color: inherit;
+    }
   }
 
   .wnck-pager {
@@ -68,8 +73,7 @@ panel-toplevel.background {
   }
 
   na-tray-applet {
-    -NaTrayApplet-icon-padding: 0;
-    -NaTrayApplet-icon-size: 16px;
+    -natrayapplet-icon-padding: 0;
+    -natrayapplet-icon-size: 16px;
   }
 }
-
