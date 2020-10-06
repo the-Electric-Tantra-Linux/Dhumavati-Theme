@@ -6,34 +6,25 @@ REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf
 MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
 
 ## Banner
-banner () {
-    clear
-    cat <<- _EOF_
+clear
+  cat <<- _EOF_
 		${RED}┌─────────────────────────────────────────────────────────────────────────────┐
 		│  ${BLUE}       __            __        __       __               __                ${RED}│
 		│  ${BLUE}.-----|  .-----.----|  |_.----|__.----.|  |_.---.-.-----|  |_.----.---.-.  ${RED}│
 		│  ${BLUE}|  -__|  |  -__|  __|   _|   _|  |  __||   _|  _  |     |   _|   _|  _  |  ${RED}│
 		│  ${BLUE}|_____|__|_____|____|____|__| |__|____||____|___._|__|__|____|__| |___._|  ${RED}│
 		└─────────────────────────────────────────────────────────────────────────────┘
-	_EOF_
-}
+_EOF_
 
-yarn-installs (){
+
+
   echo
   echo ${GREEN} Installing node dependencies
   echo
-  yarn
-  yarn build
+  cd $HOME/.local/share/dhumavati && yarn && yarn build
   echo
   echo ${GREEN} Node Dependencies Complete
-}
-
-install (){
   echo ${CYAN} Installing Theme locally and globally
-  sudo cp -rvf dist/* /usr/share/themes
-  cp -rvf dist/* ~/.local/share/themes
-echo ${RED} Installation Complete
-}
-
-banner
-yarn-installs
+  sudo cp -rvf $HOME/.local/share/dhumavati/dist/* /usr/share/themes/dhumavati
+  cp -rvf dist/* ~/.local/share/themes/dhumavati
+ echo ${RED} Installation Complete
