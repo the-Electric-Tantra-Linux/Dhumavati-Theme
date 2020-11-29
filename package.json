@@ -28,6 +28,6 @@
     "gulp-sass": "^4.0.2",
     "gulp-shell": "^0.8.0",
     "gulp-zip": "^5.0.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.2.1"
   }
 }
