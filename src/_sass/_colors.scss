@@ -29,22 +29,30 @@ $canvas_green_grey: #343a40;
 $canvas_black: #22262d;
 $canvas_white: #f4f4f7;
 // /***** color-palette *****/
-$base_color: if($variant=="dark", #22262d, #f4f4f7);
-$text_color: if($variant=="dark", #8b9cbe, #2f303d);
-$bg_color: if($variant=="dark", #22262d, #f4f4f7);
-$fg_color: if($variant=="dark", #8b9cbe, #2f303d);
-$alt_base_color: if($variant=="light",
+$base_color: if($variant== "dark", #22262d, #f4f4f7);
+$text_color: if($variant== "dark", #8b9cbe, #2f303d);
+$bg_color: if($variant== "dark", #22262d, #f4f4f7);
+$fg_color: if($variant== "dark", #8b9cbe, #2f303d);
+$alt_base_color: if(
+  $variant== "light",
   darken($base_color, 15%),
-  lighten($base_color, 15%));
-$sec_base_color: if($variant=="light",
+  lighten($base_color, 15%)
+);
+$sec_base_color: if(
+  $variant== "light",
   darken($base_color, 15%),
-  lighten($base_color, 15%));
-$alt_bg_color: if($variant=="light",
+  lighten($base_color, 15%)
+);
+$alt_bg_color: if(
+  $variant== "light",
   darken($bg_color, 5%),
-  lighten($bg_color, 5%));
-$sec_bg_color: if($variant=="light",
+  lighten($bg_color, 5%)
+);
+$sec_bg_color: if(
+  $variant== "light",
   darken($bg_color, 10%),
-  lighten($bg_color, 10%));
+  lighten($bg_color, 10%)
+);
 $alt_fg_color: rgba($fg_color, 0.75);
 $sec_fg_color: rgba($fg_color, 0.6);
 $selected_fg_color: $canvas_white;
@@ -67,37 +75,51 @@ $destructive_fg_color: $canvas_white;
 $suggested_fg_color: $canvas_white;
 $drop_target_color: $canvas_amber;
 $progress_color: $canvas_light_green;
-$borders_color: if($variant=="light",
+$borders_color: if(
+  $variant== "light",
   rgba($canvas_black, 0.15),
-  rgba($canvas_black, 0.2));
-$alt_borders_color: if($variant=="light",
+  rgba($canvas_black, 0.2)
+);
+$alt_borders_color: if(
+  $variant== "light",
   rgba($canvas_black, 0.8),
-  rgba($canvas_black, 0.8));
-$solid_borders_color: if($variant=="light",
+  rgba($canvas_black, 0.8)
+);
+$solid_borders_color: if(
+  $variant== "light",
   darken($bg_color, 15%),
-  darken($bg_color, 2%));
-$highlight: if($variant=="light",
+  darken($bg_color, 2%)
+);
+$highlight: if(
+  $variant== "light",
   rgba($canvas_white, 0.3),
-  rgba($canvas_white, 0.1));
+  rgba($canvas_white, 0.1)
+);
 $alt_highlight_color: rgba($canvas_white, 0.2);
-$link_color: if($variant=="light", $canvas_blue, $canvas_deep_purple);
-$link_visited_color: if($variant=="light",
+$link_color: if($variant== "light", $canvas_blue, $canvas_deep_purple);
+$link_visited_color: if(
+  $variant== "light",
   darken($text_color, 5%),
-  lighten($text_color, 10%));
+  lighten($text_color, 10%)
+);
 $insensitive_fg_color: rgba($fg_color, 0.45);
 $insensitive_bg_color: lighten($bg_color, 2%);
 $header_bg: $canvas_dark_grey;
 $header_bg_backdrop: lighten($header_bg, 3%);
-$header_border: if($variant=="light",
+$header_border: if(
+  $variant== "light",
   darken($header_bg, 20%),
-  darken($header_bg, 30%));
+  darken($header_bg, 30%)
+);
 $header_fg: rgba($fg_color, 0.75);
 $alt_header_fg: rgba($canvas_white, 0.95);
-$dark_sidebar_bg: if($variant=="light", #b2bfd9, #17191e);
-$dark_sidebar_fg: if($variant=="light", #b2bfd9, #f4f4f7);
-$alt_dark_sidebar_fg: if($variant=="light",
+$dark_sidebar_bg: if($variant== "light", #b2bfd9, #17191e);
+$dark_sidebar_fg: if($variant== "light", #b2bfd9, #f4f4f7);
+$alt_dark_sidebar_fg: if(
+  $variant== "light",
   darken($dark_sidebar_fg, 10%),
-  lighten($dark_sidebar_fg, 10%));
+  lighten($dark_sidebar_fg, 10%)
+);
 $dark_sidebar_border: $solid_borders_color;
 $osd_fg_color: $canvas_white;
 $osd_bg_color: $canvas_black;
@@ -110,13 +132,15 @@ $osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 30%);
 $osd_borders_color: $osd_button_border;
 $panel_bg: $osd_bg_color;
 $panel_fg: $osd_fg_color;
-$entry_bg: if($variant=="light", $base_color, lighten($base_color, 0%));
+$entry_bg: if($variant== "light", $base_color, lighten($base_color, 0%));
 $entry_border: $borders_color;
 $header_entry_bg: darken($header_bg, 3%);
 $header_entry_border: rgba($canvas_white, 0.12);
-$button_bg: if($variant=="light",
+$button_bg: if(
+  $variant== "light",
   lighten($bg_color, 2%),
-  lighten($base_color, 2%));
+  lighten($base_color, 2%)
+);
 $button_border: $entry_border;
 $header_button_bg: rgba(lighten($header_bg, 22%), 0.4);
 $header_button_border: rgba(darken($header_bg, 12%), 0.4);
