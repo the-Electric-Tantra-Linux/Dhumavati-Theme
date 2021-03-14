@@ -8,21 +8,21 @@ MAGENTABG="$(printf '\033[45m')" CYANBG="$(printf '\033[46m')" WHITEBG="$(printf
 ## Banner
 clear
 cat <<-_EOF_
-		${RED}┌─────────────────────────────────────────────────────────────────────────────┐
-		│  ${BLUE}       __            __        __       __               __                ${RED}│
-		│  ${BLUE}.-----|  .-----.----|  |_.----|__.----.|  |_.---.-.-----|  |_.----.---.-.  ${RED}│
-		│  ${BLUE}|  -__|  |  -__|  __|   _|   _|  |  __||   _|  _  |     |   _|   _|  _  |  ${RED}│
-		│  ${BLUE}|_____|__|_____|____|____|__| |__|____||____|___._|__|__|____|__| |___._|  ${RED}│
-		└─────────────────────────────────────────────────────────────────────────────┘
+	${CYAN}┌─────────────────────────────────────────────────────────────────────────────┐
+	│  ${MAGENTA}       __            __        __       __               __                ${CYAN}│
+	│  ${MAGENTA}.-----|  .-----.----|  |_.----|__.----.|  |_.---.-.-----|  |_.----.---.-.  ${CYAN}│
+	│  ${MAGENTA}|  -__|  |  -__|  __|   _|   _|  |  __||   _|  _  |     |   _|   _|  _  |  ${CYAN}│
+	│  ${MAGENTA}|_____|__|_____|____|____|__| |__|____||____|___._|__|__|____|__| |___._|  ${CYAN}│
+	└─────────────────────────────────────────────────────────────────────────────┘
 _EOF_
 
 echo
 echo ${GREEN} Installing node dependencies
 echo
-cd $HOME/.local/share/Dhumavati-GTK-Theme && yarn && yarn build
+yarn && yarn build
 echo
 echo ${GREEN} Node Dependencies Complete
 echo ${CYAN} Installing Theme locally and globally
-sudo cp -rvf $HOME/.local/share/dhumavati/dist/* /usr/share/themes/dhumavati
-cp -rvf dist/* ~/.local/share/themes/dhumavati
+sudo cp -rvf dist/dhumavati/* /usr/share/themes/dhumavati
+mkdir -p ~/.local/share/themes/dhumavati && cp -rvf dist/dhumavati/* ~/.local/share/themes/dhumavati
 echo ${RED} Installation Complete

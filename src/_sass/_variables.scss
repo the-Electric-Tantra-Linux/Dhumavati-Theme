@@ -6,22 +6,22 @@
   @return unquote("alpha(#{$c},#{$a})");
 }
 
-$asset_suffix: if($variant == "dark", "-dark", "");
+$asset_suffix: if($variant=="dark", "-dark", "");
 
 // sizes
-$small_size: 17px;
-$medium_size: 28px;
-$large_size: 38px;
+$small_size: 24px;
+$medium_size: 36px;
+$large_size: 48px;
 
 $cont_padding: 6px;
-$menuitem_size: 28px;
+$menuitem_size: 36px;
 $icon_padding: 6px;
-$header_padding: 0;
+$header_padding: 12px;
 
 // radiuses
 $bt_radius: 2px;
-$corner_radius: 0;
-$material_radius: 2px;
+$corner_radius: 6px;
+$material_radius: 4px;
 $circular_radius: 9999px;
 
 // durations
@@ -41,4 +41,4 @@ $longer_transition: all $longer_duration $deceleration_curve;
 $shadow_transition: box-shadow $shorter_duration $deceleration_curve;
 
 $ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-$backdrop_transition: 200ms ease-out;
+$backdrop_transition: 600ms ease-out;
