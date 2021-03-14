@@ -30,9 +30,9 @@ $canvas_black: #22262d;
 $canvas_white: #f4f4f7;
 // /***** color-palette *****/
 $base_color: if($variant=="dark", #22262d, #f4f4f7);
-$text_color: if($variant=="dark", #8b9cbe, #8b9cbe);
+$text_color: if($variant=="dark", #8b9cbe, #2f303d);
 $bg_color: if($variant=="dark", #22262d, #f4f4f7);
-$fg_color: if($variant=="dark", #8b9cbe, #8b9cbe);
+$fg_color: if($variant=="dark", #8b9cbe, #2f303d);
 $alt_base_color: if($variant=="light",
   darken($base_color, 15%),
   lighten($base_color, 15%));
