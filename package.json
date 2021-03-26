@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/godlyranchdressing/retrowave-theme.git"
+    "url": "git+https://github.com/Thomashighbaugh/retrowave-theme.git"
   },
   "author": "",
   "license": "GNUV3",
   "bugs": {
-    "url": "https://github.com/godlyranchdressing/retrowave-theme/issues"
+    "url": "https://github.com/Thomashighbaugh/retrowave-theme/issues"
   },
-  "homepage": "https://github.com/godlyranchdressing/retrowave-theme#readme",
+  "homepage": "https://github.com/Thomashighbaugh/retrowave-theme#readme",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",

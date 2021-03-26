@@ -59,7 +59,11 @@ gulp.task("dev-gtk2", () => {
 });
 
 gulp.task("clean", function () {
-  return gulp.src("./dist").pipe(clean({ force: true }));
+  return gulp.src("./dist").pipe(
+    clean({
+      force: true,
+    })
+  );
 });
 
 gulp.task(
