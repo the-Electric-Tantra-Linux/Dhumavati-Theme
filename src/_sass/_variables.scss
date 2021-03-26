@@ -6,7 +6,7 @@
   @return unquote("alpha(#{$c},#{$a})");
 }
 
-$asset_suffix: if($variant=="dark", "-dark", "");
+$asset_suffix: if($variant== "dark", "-dark", "");
 
 // sizes
 $small_size: 24px;
