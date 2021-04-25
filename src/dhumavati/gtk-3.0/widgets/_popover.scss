@@ -47,7 +47,7 @@ popover.background {
     > contents {
       @extend %osd;
 
-      border: 1px solid transparentize(white, 0.9);
+      border: 1px solid transparentize($fg_color, 0.9);
       box-shadow: none;
     }
   }

@@ -3,25 +3,25 @@
 @import "color-palette";
 
 $base_color: #2f303d;
-$text_color: #e9e9ff;
+$text_color: #8b9cbe;
 $bg_color: #3c3f4c;
-$fg_color: #edeeff;
+$fg_color: #b2bfd9;
 $lighter_bg_color: #404756;
 $tab_active_color: #3c3f4c;
 
-$selected_fg_color: #ffffff;
-$selected_bg_color: transparentize(#ffffff, 0.7);
-$selected_borders_color: darken($selected_bg_color, 30%);
-$borders_color: darken($bg_color, 10%);
-$alt_borders_color: darken($bg_color, 18%);
+$selected_fg_color: #f4f4f7;
+$selected_bg_color: transparentize(#3c3f4c, 0.99);
+$selected_borders_color: darken($selected_bg_color, 20%);
+$borders_color: darken($bg_color, 20%);
+$alt_borders_color: darken($bg_color, 8%);
 $borders_edge: transparentize($fg_color, 0.93);
-$link_color: #f97e72;
+$link_color: #8265ff;
 $link_visited_color: lighten($link_color, 10%);
 $top_hilight: $borders_edge;
 // $dark_fill: mix($borders_color, $bg_color, 50%);
 $dark_fill: $base_color;
 $headerbar_color: $bg_color;
-$notebook_bg_color: #2f303d;
+$notebook_bg_color: $base_color;
 $menu_color: mix($bg_color, $base_color, 20%);
 $popover_bg_color: $bg_color;
 $popover_hover_color: lighten($bg_color, 5%);
@@ -32,10 +32,10 @@ $scrollbar_slider_hover_color: mix($fg_color, $bg_color, 80%);
 $scrollbar_slider_active_color: $neon_pink;
 
 $focus_color: $neon_pink;
-$warning_color: #ffee0a;
-$error_color: #ff382d;
-$success_color: #75bf15;
-$destructive_color: #ff382d;
+$warning_color: #f0ffaa;
+$error_color: #ff3d81;
+$success_color: #00ffcc;
+$destructive_color: #ff3d81;
 
 $osd_fg_color: $fg_color;
 $osd_text_color: $text_color;
@@ -45,12 +45,12 @@ $osd_insensitive_bg_color: transparentize(
   0.5
 );
 $osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 50%);
-$osd_borders_color: transparentize(#2f303d, 0.3);
+$osd_borders_color: transparentize($base_color, 0.3);
 
 $sidebar_bg_color: mix($bg_color, $base_color, 50%);
 $base_hover_color: transparentize($fg_color, 0.95);
 
-$tooltip_borders_color: transparentize(white, 0.9);
+$tooltip_borders_color: transparentize(#22262d, 0.9);
 $shadow_color: transparentize($bg_color, 0.9);
 
 $drop_target_color: $success_color;
@@ -61,7 +61,7 @@ $insensitive_bg_color: mix($bg_color, $base_color, 60%);
 $insensitive_borders_color: $borders_color;
 
 //colors for the backdrop state, derived from the main colors.
-$backdrop_base_color: lighten($base_color, 1%);
+$backdrop_base_color: lighten($base_color, 3%);
 $backdrop_text_color: mix($text_color, $backdrop_base_color, 80%);
 $backdrop_bg_color: $bg_color;
 $backdrop_fg_color: mix($fg_color, $backdrop_bg_color, 50%);

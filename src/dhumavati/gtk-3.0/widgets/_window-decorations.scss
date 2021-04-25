@@ -106,7 +106,7 @@ button.titlebutton {
 .selection-mode .titlebar button.titlebutton,
 headerbar.selection-mode button.titlebutton,
 .titlebar.selection-mode button.titlebutton {
-  @include _button_text_shadow(white, $selected_bg_color);
+  @include _button_text_shadow($fg_color, $selected_bg_color);
 
   &:backdrop {
     -gtk-icon-shadow: none;
@@ -128,8 +128,8 @@ tooltip {
   &,
   &.background {
     background-color: $bg_color;
-    border: 1px solid #555;
-    box-shadow: 0 0 0 1px #ccc;
+    border: 1px solid $borders_color;
+    box-shadow: 0 0 0 1px #22262d;
     color: $osd_fg_color;
   }
 }

@@ -21,7 +21,7 @@ switch {
     border-color: $selected_borders_color;
     background-color: $c;
     text-shadow: 0 1px transparentize($selected_borders_color, 0.5),
-      0 0 2px transparentize(white, 0.4);
+      0 0 2px transparentize($fg_color, 0.4);
 
     @if ($glow) {
       @extend %glow_blue;
@@ -32,7 +32,7 @@ switch {
     }
 
     image {
-      color: mix(white, $c, 90%);
+      color: mix($fg_color, $c, 90%);
     }
   }
 
@@ -61,7 +61,7 @@ switch {
       box-shadow: none;
 
       image {
-        color: mix(white, $_c, 90%);
+        color: mix($fg_color, $_c, 90%);
       }
     }
 

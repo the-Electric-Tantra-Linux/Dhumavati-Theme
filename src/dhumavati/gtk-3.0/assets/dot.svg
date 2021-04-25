@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg8" width="6" height="6" version="1.1" viewBox="0 0 1.587 1.588"><defs id="defs2"><linearGradient id="linearGradient2111"><stop style="stop-color:#fff951;stop-opacity:1" id="stop2103" offset="0"/><stop style="stop-color:#fc29a8;stop-opacity:1" id="stop2109" offset="1"/></linearGradient><linearGradient id="linearGradient2154" x1="472.935" x2="472.935" y1="263.129" y2="278.136" gradientTransform="matrix(0.10584184,0,0,0.1057839,-211.27117,-75.192488)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2111"/></defs><metadata id="metadata5"/><g id="layer1" transform="translate(162.80234,47.357646)"><ellipse id="path2131" cx="-162.009" cy="-46.564" rx=".794" ry=".794" style="fill:url(#linearGradient2154);fill-opacity:1;stroke:none;stroke-width:.34526"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" id="svg8" width="6" height="6" version="1.1" viewBox="0 0 1.587 1.588">
+    <defs id="defs2">
+        <linearGradient id="linearGradient2111">
+            <stop style="stop-color:#00caff;stop-opacity:1" id="stop2103" offset="0" />
+            <stop style="stop-color:#ff29a8;stop-opacity:1" id="stop2109" offset="1" />
+        </linearGradient>
+        <linearGradient id="linearGradient2154" x1="472.935" x2="472.935" y1="263.129" y2="278.136"
+            gradientTransform="matrix(0.10584184,0,0,0.1057839,-211.27117,-75.192488)" gradientUnits="userSpaceOnUse"
+            xlink:href="#linearGradient2111" />
+    </defs>
+    <metadata id="metadata5" />
+    <g id="layer1" transform="translate(162.80234,47.357646)">
+        <ellipse id="path2131" cx="-162.009" cy="-46.564" rx=".794" ry=".794"
+            style="fill:url(#linearGradient2154);fill-opacity:1;stroke:none;stroke-width:.34526" />
+    </g>
+</svg>

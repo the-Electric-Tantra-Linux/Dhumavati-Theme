@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg8" width="28" height="28" version="1.1" viewBox="0 0 7.408 7.408"><metadata id="metadata5"/><g id="layer1" transform="translate(172.57991,52.093323)"><rect style="opacity:1;fill:#372d4b;stroke:#372d4b;stroke-width:.529143;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="rect849" width="5.821" height="5.821" x="-171.786" y="-51.3"/><rect id="rect849-6" width="6.879" height="6.879" x="-172.315" y="-51.829" style="opacity:1;fill:none;stroke:#17121f;stroke-width:.529182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg8" width="28" height="28"
+    version="1.1" viewBox="0 0 7.408 7.408">
+    <metadata id="metadata5" />
+    <g id="layer1" transform="translate(172.57991,52.093323)">
+        <rect
+            style="opacity:1;fill:#17191e;stroke:#22262d;stroke-width:.529143;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="rect849" width="5.821" height="5.821" x="-171.786" y="-51.3" />
+        <rect id="rect849-6" width="6.879" height="6.879" x="-172.315" y="-51.829"
+            style="opacity:1;fill:none;stroke:#17191e;stroke-width:.529182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+</svg>
