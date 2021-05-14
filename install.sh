@@ -23,8 +23,8 @@ yarn && yarn build
 echo
 echo ${GREEN} Node Dependencies Complete
 echo ${CYAN} Installing Theme locally and globally
-sudo cp -rvf dist/dhumavati/* /usr/share/themes/dhumavati
-sudo cp -rvf dist/* /usr/share/themes/dhumavati-light
-mkdir -p ~/.local/share/themes/dhumavati && cp -rvf dist/dhumavati/* ~/.local/share/themes/dhumavati
+sudo cp -rvf "$PWD"/dist/dhumavati/* /usr/share/themes/dhumavati
+sudo cp -rvf "$PWD"/dist/* /usr/share/themes/dhumavati-light
+mkdir -p ~/.local/share/themes/dhumavati && cp -rvf "$PWD"/dist/dhumavati/* ~/.local/share/themes/dhumavati
 mkdir -p ~/.local/share/themes/dhumavati-light && cp -rvf dist/* ~/.local/share/themes/dhumavati-light
 echo ${RED} Installation Complete
