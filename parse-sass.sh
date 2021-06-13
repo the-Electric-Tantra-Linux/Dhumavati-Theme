@@ -6,7 +6,7 @@ if [ ! "$(which sassc 2> /dev/null)" ]; then
    exit 1
 fi
 
-SASSC_OPT="-M -t expanded"
+SASSC_OPT=" -t expanded"
 
 _COLOR_VARIANTS=('' '-dark')
 if [ ! -z "${COLOR_VARIANTS:-}" ]; then
@@ -14,6 +14,6 @@ if [ ! -z "${COLOR_VARIANTS:-}" ]; then
 fi
 
 for color in "${_COLOR_VARIANTS[@]}"; do
-  sassc $SASSC_OPT src/gtk-3.0/gtk${color}.{scss,css}
+  sass $SASSC_OPT src/gtk-3.0/gtk${color}.{scss,css}
   echo "==> Generating the gtk${color}.css..."
 done

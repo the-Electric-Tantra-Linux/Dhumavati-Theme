@@ -26,12 +26,12 @@ $canvas_grey: #17191e;
 $canvas_dark_grey: #2f303d;
 $canvas_blue_grey: #383a47;
 $canvas_green_grey: #343a40;
-$canvas_black: #22262d;
+$canvas_black: #17191e;
 $canvas_white: #f4f4f7;
 // /***** color-palette *****/
-$base_color: if($variant== "dark", #22262d, #f4f4f7);
+$base_color: if($variant== "dark", #17191e, #f4f4f7);
 $text_color: if($variant== "dark", #8b9cbe, #2f303d);
-$bg_color: if($variant== "dark", #22262d, #f4f4f7);
+$bg_color: if($variant== "dark", #17191e, #f4f4f7);
 $fg_color: if($variant== "dark", #8b9cbe, #2f303d);
 $alt_base_color: if(
   $variant== "light",
