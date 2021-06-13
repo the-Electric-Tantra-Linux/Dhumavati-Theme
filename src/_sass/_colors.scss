@@ -53,84 +53,13 @@ $sec_bg_color: if(
   darken($bg_color, 10%),
   lighten($bg_color, 10%)
 );
-$alt_fg_color: rgba($fg_color, 0.75);
+$alt_fg_color: lighten($fg_color, 15%);
 $sec_fg_color: rgba($fg_color, 0.6);
 $selected_fg_color: $canvas_white;
 $selected_bg_color: $canvas_blue;
 $accent_color: $canvas_purple;
 $alt_selected_bg_color: lighten($selected_bg_color, 5%);
-$sec_selected_bg_color: darken($selected_bg_color, 5%);
-$alt_selected_fg_color: rgba($selected_fg_color, 0.75);
-$sec_selected_fg_color: rgba($selected_fg_color, 0.6);
-$selection_mode_bg: $selected_bg_color;
-$selection_mode_fg: $selected_fg_color;
-$warning_color: $canvas_orange;
-$error_color: $canvas_red;
-$warning_fg_color: $canvas_white;
-$error_fg_color: $canvas_white;
-$success_color: $canvas_green;
-$destructive_color: $canvas_red;
-$suggested_color: $canvas_light_blue;
-$destructive_fg_color: $canvas_white;
-$suggested_fg_color: $canvas_white;
-$drop_target_color: $canvas_amber;
-$progress_color: $canvas_light_green;
-$borders_color: if(
-  $variant== "light",
-  rgba($canvas_black, 0.15),
-  rgba($canvas_black, 0.2)
-);
-$alt_borders_color: if(
-  $variant== "light",
-  rgba($canvas_black, 0.8),
-  rgba($canvas_black, 0.8)
-);
-$solid_borders_color: if(
-  $variant== "light",
-  darken($bg_color, 15%),
-  darken($bg_color, 2%)
-);
-$highlight: if(
-  $variant== "light",
-  rgba($canvas_white, 0.3),
-  rgba($canvas_white, 0.1)
-);
-$alt_highlight_color: rgba($canvas_white, 0.2);
-$link_color: if($variant== "light", $canvas_blue, $canvas_deep_purple);
-$link_visited_color: if(
-  $variant== "light",
-  darken($text_color, 5%),
-  lighten($text_color, 10%)
-);
-$insensitive_fg_color: rgba($fg_color, 0.45);
-$insensitive_bg_color: lighten($bg_color, 2%);
-$header_bg: $canvas_dark_grey;
-$header_bg_backdrop: lighten($header_bg, 3%);
-$header_border: if(
-  $variant== "light",
-  darken($header_bg, 20%),
-  darken($header_bg, 30%)
-);
-$header_fg: rgba($fg_color, 0.75);
-$alt_header_fg: rgba($canvas_white, 0.95);
-$dark_sidebar_bg: if($variant== "light", #b2bfd9, #17191e);
-$dark_sidebar_fg: if($variant== "light", #b2bfd9, #f4f4f7);
-$alt_dark_sidebar_fg: if(
-  $variant== "light",
-  darken($dark_sidebar_fg, 10%),
-  lighten($dark_sidebar_fg, 10%)
-);
-$dark_sidebar_border: $solid_borders_color;
-$osd_fg_color: $canvas_white;
-$osd_bg_color: $canvas_black;
-$osd_button_bg: rgba(lighten($osd_bg_color, 22%), 0.4);
-$osd_button_border: rgba(lighten($osd_bg_color, 26%), 0.55);
-$osd_entry_bg: rgba(lighten($osd_bg_color, 22%), 0.4);
-$osd_entry_border: rgba(darken($osd_bg_color, 12%), 0.4);
-$osd_insensitive_bg_color: darken($osd_bg_color, 5%);
-$osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 30%);
-$osd_borders_color: $osd_button_border;
-$panel_bg: $osd_bg_color;
+$sec_selected_bg_color: darken($selected_bg_color, 5%)anel_bg: $osd_bg_color;
 $panel_fg: $osd_fg_color;
 $entry_bg: if($variant== "light", $base_color, lighten($base_color, 0%));
 $entry_border: $borders_color;
