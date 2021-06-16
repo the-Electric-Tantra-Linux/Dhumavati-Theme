@@ -1196,7 +1196,7 @@ window.background > box.vertical box.horizontal {
         color: darken($fg_color, 20%);
         transition-property: opacity,
           // exclude background-color
-            border-image,
+          border-image,
           background-image, box-shadow;
         &:hover {
           background-image: image(mix($fg_color, $bg_color, 5%));

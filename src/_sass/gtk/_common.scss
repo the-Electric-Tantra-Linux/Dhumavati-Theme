@@ -280,7 +280,7 @@ entry {
     $e_fg_color in (warning, $warning_color, $warning_fg_color),
     (error, $error_color, $error_fg_color),
     // entry.search-missing for Gnome-Builder
-      (search-missing, $error_color, $error_fg_color)
+    (search-missing, $error_color, $error_fg_color)
   {
     &.#{$e_type} {
       color: $e_fg_color;
