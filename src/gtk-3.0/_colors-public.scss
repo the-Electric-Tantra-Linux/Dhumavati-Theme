@@ -90,7 +90,7 @@ $_wm_highlight: if(
   $variant== "light",
   $top_hilight,
   // Sass gets mad if this is
-    transparentize(#2f303d, 1)
+  transparentize(#2f303d, 1)
 ); // done directly in the
 // color definition
 
