@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" id="svg5653" width="50" height="50" version="1.1" viewBox="0 0 50 50">
+    <defs id="defs5655">
+        <linearGradient id="linearGradient851">
+            <stop id="stop847" offset="0" style="stop-color:#22262d;stop-opacity:1" />
+            <stop id="stop849" offset="1" style="stop-color:#2f303d;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="linearGradient853" x1="301.644" x2="301.644" y1="398.097" y2="348.335"
+            gradientUnits="userSpaceOnUse" xlink:href="#linearGradient851" />
+    </defs>
+    <metadata id="metadata5658" />
+    <g id="layer1" transform="translate(-251.64411,-348.09678)">
+        <rect
+            style="fill:url(#linearGradient853);fill-opacity:1;stroke:#000;stroke-width:1.99998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="rect881" width="48" height="48" x="252.644" y="349.097" />
+        <path
+            style="fill:none;stroke:#3c3f4c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="path883-7-3" d="m 253.64412,395.09679 h 46" />
+        <path id="path883-7-3-3" d="m 253.64412,351.09679 h 46"
+            style="fill:none;stroke:#3c3f4c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+            style="fill:none;stroke:#3c3f4c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            id="path883-7-3-3-6" d="m 298.64411,396.09679 10e-6,-46" />
+        <path id="path883-7-3-3-6-7" d="m 254.64412,396.09679 1e-5,-46"
+            style="fill:none;stroke:#3c3f4c;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+</svg>

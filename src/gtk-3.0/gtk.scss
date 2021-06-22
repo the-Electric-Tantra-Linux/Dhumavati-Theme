@@ -1,11 +1,17 @@
-$variant: "light";
+// General guidelines:
+// - very unlikely you want to edit something else than _common.scss
+// - keep the number of defined colors to a minimum, use the color blending functions if
+//   you need a subtle shade
+// - if you need to inverse a color function use the @if directive to match for dark $variant
 
-@import "../_sass/colors";
-@import "../_sass/variables";
-@import "../_sass/gtk/drawing";
-@import "../_sass/gtk/common";
-@import "../_sass/gtk/apps";
-@import "../_sass/gtk/granite";
-@import "../_sass/gtk/sidebar_widgets";
-@import "../_sass/gtk/tabs_widgets";
-@import "../_sass/gtk/colors-public";
+$glow: true;
+$variant: "dark";
+$path: "../../dhumavati/gtk-3.0";
+
+@import "variables";
+@import "colors";
+@import "drawing";
+@import "common";
+@import "widgets";
+@import "colors-public";
+@import "apps";

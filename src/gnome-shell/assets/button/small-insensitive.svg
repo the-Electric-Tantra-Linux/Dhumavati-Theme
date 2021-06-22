@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg33222" width="60" height="60"
+    version="1.1">
+    <defs id="defs33224">
+        <linearGradient id="linearGradient3845">
+            <stop style="stop-color:#000;stop-opacity:.18039216" id="stop3847" offset="0" />
+            <stop style="stop-color:#000;stop-opacity:.43137255" id="stop3849" offset="1" />
+        </linearGradient>
+        <linearGradient id="linearGradient3837">
+            <stop style="stop-color:#f4f4f7;stop-opacity:1" id="stop3839" offset="0" />
+            <stop id="stop3781" offset=".083" style="stop-color:#f4f4f7;stop-opacity:0" />
+            <stop style="stop-color:#0b0b0b;stop-opacity:0" id="stop3783" offset=".909" />
+            <stop style="stop-color:#000;stop-opacity:.02745098" id="stop3841" offset="1" />
+        </linearGradient>
+        <linearGradient id="linearGradient3845-0">
+            <stop style="stop-color:#000;stop-opacity:.18039216" id="stop3847-1" offset="0" />
+            <stop style="stop-color:#000;stop-opacity:.43137255" id="stop3849-3" offset="1" />
+        </linearGradient>
+    </defs>
+    <metadata id="metadata33227" />
+    <g id="layer1" transform="translate(93.884156,27.624045)">
+        <g id="layer1-6" transform="matrix(0.50000005,0,0,0.50000005,-204.71696,-186.68315)"
+            style="stroke:#120e19;stroke-opacity:1">
+            <rect
+                style="fill:#17191e;fill-opacity:1;stroke:#000;stroke-width:2.00004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                id="rect881" width="58" height="58" x="252.666" y="349.118" />
+        </g>
+    </g>
+</svg>
