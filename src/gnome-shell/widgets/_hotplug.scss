@@ -1,10 +1,9 @@
 // hotplug
-
 .hotplug-notification-item {
-  @extend %bubble_button;
+    @extend %bubble_button;
 }
 
 .hotplug-notification-item-icon {
-  icon-size: 24px;
-  padding: 0 4px;
+    icon-size: 36px;
+    padding: 0 4px;
 }
