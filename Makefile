@@ -52,7 +52,7 @@ generate_changelog: _get_version _get_tag
 	printf "%s\n\n" "$$(git log --pretty=format:' * %s' $(TAG)..HEAD)" >> CHANGELOG
 	cat CHANGELOG.old >> CHANGELOG
 	rm CHANGELOG.old
-	$$EDITOR CHANGELOG
+	vim CHANGELOG
 	git commit CHANGELOG -m "Update CHANGELOG version $(VERSION)"
 	git push origin HEAD
 
