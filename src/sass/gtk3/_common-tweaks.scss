@@ -1,0 +1,590 @@
+$_header_bg: darken($bg_color, if($variant == 'light', 7%, 10%));
+$_menu_shadow: 0 1px 6px transparentize(black, if($variant == 'light', .85, .5));
+$_widget_inset_shadow: inset 0 3px 5px -4px $shadow_color, 0 1px rgba(255, 255, 255, .05);
+$_wm_border: if($variant=='light', transparentize(black, 0.9), transparentize($borders_color, 0.25));
+
+* {
+  outline-style: solid;
+  outline-offset: -4px;
+  outline-width: 2px;
+  -gtk-outline-radius: 3px;
+  outline-color: gtkalpha(currentColor, 0.07);
+
+  button {
+    &, &:hover, &:active, &:checked, &:focus {
+      outline-color: gtkalpha(currentColor, if($variant == 'light', 0.15, 0.07));
+    }
+  }
+}
+
+/**********
+ * Button *
+ **********/
+button {
+  @at-root %button_active,
+  &:active,
+  &:checked, {
+    background: $dark_fill;
+    box-shadow: $_widget_inset_shadow;
+
+    &:backdrop { box-shadow: none; }
+  }
+
+  &.flat {
+    border-color: transparent;
+    transition: $button_transition;
+
+    &:hover {
+      @extend %button_active;
+      transition: none;
+    }
+
+    &:link,
+    &:backdrop { @include button(undecorated); }
+  }
+
+  // Suggested and Destructive Action buttons
+  @each $b_type, $b_color, $t_color in (suggested-action, $suggested_bg_color, $selected_fg_color),
+                             (destructive-action, $destructive_color, white) {
+    &.#{$b_type} {
+      @include button(normal, $b_color, $t_color);
+
+      &:hover { @include button(hover, $b_color, $t_color); }
+
+      &:active,
+      &:checked { @include button(active, $b_color, $t_color); }
+
+      &:backdrop,
+      &.flat:backdrop {
+        @include button(backdrop, $b_color, $t_color);
+
+        &:active,
+        &:checked { @include button(backdrop-active, $b_color, $t_color); }
+
+        &:disabled {
+          &:active,
+          &:checked { @include button(backdrop-insensitive-active, $b_color, $t_color); }
+        }
+      }
+
+      &:disabled {
+        &:active,
+        &:checked { @include button(insensitive-active, $b_color, $t_color); }
+      }
+    }
+  }
+}
+
+/**********
+ * Entry *
+ **********/
+%entry,
+entry {
+  box-shadow: $_widget_inset_shadow;
+  @if ($variant == 'dark') {
+    background-color: $dark_fill;
+  }
+}
+
+headerbar %entry,
+headerbar entry {
+  background: $base_color;
+}
+
+/**********
+ * Switch *
+ **********/
+switch {
+  box-shadow: $_widget_inset_shadow;
+
+  &:checked {
+    border-color: transparentize(black, .8);
+    border-right-width: 0; // Hack to prevent dirty right border-radius
+    margin-right: 1px; // Compensate missing right border
+    box-shadow: inset 0 1px 2px -1px transparentize(black, .4);
+  }
+
+  &:backdrop, &:disabled {
+    box-shadow: none;
+    border-color: $backdrop_borders_color;
+  }
+
+  slider {
+    @extend %slider;
+
+    &:checked {
+      border-color: if($variant=='light', $suggested_border_color, $borders_color);
+      &:backdrop:not(:disabled) {
+        border-color: if($variant=='light', $suggested_bg_color, $backdrop_borders_color);
+      }
+    }
+
+    &:disabled {
+      border-color: $backdrop_borders_color;
+    }
+  }
+
+  &:hover slider { @extend %slider_active; }
+}
+
+/*************************
+ * Check and Radio items *
+ *************************/
+check,
+radio {
+  $_c: if($variant=='light', $bg_color, darken($bg_color, 2%));
+  $_shadow: 0 1px 2px transparentize($shadow_color, 0.03);
+
+  &, menu menuitem &, menu menuitem:hover & {
+    background-image: linear-gradient(to bottom, $_c 20%, darken($_c, 2%) 90%);
+    border-color: $alt_borders_color;
+    box-shadow: $_widget_inset_shadow;
+
+    &:disabled, &:disabled:backdrop {
+      &, &:checked, &:indeterminate {
+        border-color: $borders_color;
+        background-image: image($bg_color);
+        color: $fg_color;
+      }
+    }
+  }
+
+  &, menu menuitem & {
+    &:checked, &:indeterminate {
+      background-image: linear-gradient(to bottom, $selected_bg_color 20%, darken($selected_bg_color, 2%) 90%);
+      border-color: $selected_borders_color;
+      box-shadow: inset 0 1px transparentize(white, .9), $_shadow;
+      color: $selected_fg_color;
+
+      &:active { box-shadow: none; }
+      &:backdrop { background-image: image($checkradio_bg_color); }
+    }
+  }
+}
+
+%slider,
+scale slider {
+  @include button(normal, $edge: $shadow_color);
+
+  border-color: darken($alt_borders_color, 3%);
+  @at-root %slider_active,
+  &:active {
+    background-image: if($variant == 'light', image(lighten($bg_color, 14%)), image(darken($bg_color, 9%)));
+    border-color: $suggested_bg_color;
+  }
+
+  &:disabled { border-color: $backdrop_borders_color; }
+}
+
+/***************
+ * Header bars *
+ ***************/
+headerbar {
+  $_border_color: darken($bg_color, 20%);
+  border-color: $_border_color;
+
+  @include headerbar_fill($_header_bg);
+  box-shadow: 0 1px 4px transparentize($_border_color, .25);
+  background-repeat: no-repeat;
+  background-position: left;
+
+  &:backdrop {
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: none;
+  }
+}
+
+%titlebar,
+headerbar {
+  stackswitcher button,
+  button.toggle {
+    &:active, &:checked { @extend %button_active; }
+  }
+
+  viewswitcher button > stack > box,
+  hdyviewswitcher > button box {
+    &.narrow { margin: -7px 0 -5px; }
+    &.wide { margin: -8px 0; }
+  }
+
+  &.default-decoration {
+    min-height: 0;
+    padding: 6px;
+
+    button.titlebutton {
+      min-height: 0;
+      min-width: 0;
+      margin: 0;
+    }
+  }
+
+  dialog &,
+  dialog &:backdrop {
+    background: $bg_color;
+    border: 0;
+    box-shadow: none;
+  }
+}
+
+paned headerbar:first-child,
+hdyleaflet headerbar:first-child,
+headerbar.titlebar headerbar:first-child,
+deck leaflet box:first-child headerbar:first-child,
+leaflet > headerbar:first-child {
+  border-color: $backdrop_borders_color;
+  background: $base_color;
+  box-shadow: none;
+
+  &:backdrop { background: $backdrop_base_color; }
+}
+
+
+/**************
+ * Tree Views *
+ **************/
+treeview.view {
+  border-top-color: $borders-color;
+
+  &:backdrop { border-top-color: $backdrop_borders_color; }
+
+  header button {
+    @include button(normal);
+
+    &:hover,
+    &:active { border-color: $borders_color; }
+
+    &:backdrop { box-shadow: none; }
+  }
+}
+
+/***************
+ * Popovers   *
+ ***************/
+popover.background {
+  box-shadow: $_menu_shadow;
+  .csd &, & { border-color: if($variant=='light', transparentize(black, 0.9), transparentize($borders_color, 0.25)); }
+}
+
+/*************
+ * Notebooks *
+ *************/
+notebook {
+  > header {
+    border: 0;
+    padding: 0;
+    background-color: $dark_fill;
+
+    &.top,
+    &.bottom,
+    &.left,
+    &.right {
+      > tabs {
+        margin: 0;
+
+        > tab,
+        > tab.reorderable-page {
+          border: 1px solid transparent;
+          margin: 3px;
+
+          &:hover:not(:backdrop) { @include button(hover); }
+
+          &:checked {
+            @include button(normal);
+
+            &:backdrop { @include button(backdrop); }
+          }
+        }
+      }
+    }
+
+    $gradient:
+      rgba(black, 0),
+      rgba(black, 0) calc(100% - 2px),
+      rgba(black, 0.05) calc(100% - 1px),
+      rgba(black, 0.15);
+
+    &.top {
+      background-image: linear-gradient(to bottom, $gradient);
+    }
+
+    &.bottom {
+      background-image: linear-gradient(to top, $gradient);
+    }
+
+    &.right {
+      background-image: linear-gradient(to left, $gradient);
+    }
+
+    &.left {
+      background-image: linear-gradient(to right, $gradient);
+    }
+
+    tab {
+      border-radius: $button_radius;
+      transition: $button_transition;
+      min-height: 24px;
+
+      button.flat {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+    }
+  }
+}
+
+/**************
+ * Scrollbars *
+ **************/
+scrollbar slider {
+  min-width: 6px;
+  min-height: 6px;
+}
+
+/**************
+ * GtkInfoBar *
+ **************/
+infobar {
+  @mixin _infobar_button($bg) {
+    button,
+    button.flat {
+      @include button(normal, $bg, $selected_fg_color, none);
+
+      &:hover { @include button(hover, $bg, $selected_fg_color, none); }
+
+      &:active,
+      &:checked { @include button(active, $bg, $selected_fg_color, none); }
+
+      &:disabled { @include button(insensitive, $bg, $selected_fg_color, none); }
+
+      &:backdrop {
+        @include button(backdrop, $bg, $selected_fg_color, none);
+        border-color: _border_color($bg);
+
+        &:disabled {
+          @include button(backdrop-insensitive, $bg,
+                          $selected_fg_color, none);
+          border-color: _border_color($bg);
+        }
+      }
+      &:backdrop, & {
+        label, & { color: $selected_fg_color; }
+      }
+    }
+  }
+
+  &,
+  &.info,
+  &.question,
+  &.warning,
+  &.error {
+
+    border-style: none;
+    text-shadow: none;
+
+    &:backdrop > revealer > box, & > revealer > box {
+      label, & { color: $selected_fg_color; }
+    }
+
+    &:backdrop { text-shadow: none; }
+
+    selection { background-color: darken($bg_color, 10%); }
+
+    *:link { color: $link_color; }
+  }
+
+  &.info, &.info.action:hover {
+    &:backdrop > revealer > box, & > revealer > box {
+      background-color: $selected_bg_color;
+    }
+
+    @include _infobar_button($selected_bg_color);
+  }
+
+  &.question, &.warning, &.question.action:hover, &.warning.action:hover {
+    &:backdrop > revealer > box, & > revealer > box {
+      background-color: $warning_color;
+    }
+
+    @include _infobar_button($warning_color);
+  }
+
+  &.error, &.error.action:hover {
+    &:backdrop > revealer > box, & > revealer > box {
+      background-color: $error_color;
+
+      @include _infobar_button($error_color);
+    }
+  }
+}
+
+/*********
+ * Lists *
+ *********/
+row {
+  &:selected, &.activatable:selected {
+    &, &:backdrop, &:active {
+    border-radius: $button_radius + 4px;
+    background-color: $bg_color;
+    color: $text_color;
+    box-shadow: inset 0 0 0 9999px $menu_selected_color,
+                inset 0 0 0 3px $base_color;
+    }
+  }
+}
+
+/*********************
+ * App Notifications *
+ *********************/
+.app-notification,
+.app-notification.frame {
+  padding: 5px 10px;
+  margin: 20px;
+  border-radius: $button_radius+1;
+  border: 1px solid transparentize($_wm_border, 0.1);
+  box-shadow: $_menu_shadow;
+  background-image: none;
+
+  &:backdrop { box-shadow: none; }
+}
+
+/************
+ * Calendar *
+ ***********/
+calendar {
+  border-radius: 6px;
+  border:0;
+  padding: 1px;
+}
+
+/***********
+ * Dialogs *
+ ***********/
+messagedialog .titlebar:backdrop { background-image: none; }
+
+
+/***********
+ * Sidebar *
+ ***********/
+.sidebar {
+  background-color: $bg_color;
+}
+
+stacksidebar row { padding: 7px 3px; }
+
+/****************
+ * File chooser *
+ ****************/
+placessidebar {
+  row {
+    min-height: 30px;
+  }
+}
+
+/**********************
+ * Window Decorations *
+ *********************/
+decoration {
+  $_border_width: 1px;
+  border-radius: $window_radius+$_border_width $window_radius+$_border_width $button_radius+$_border_width $button_radius+$_border_width;
+  border: $_border_width solid $base_color;
+
+  box-shadow: 0 2px 8px 0 transparentize(black, 0.6),
+              0 0 0 1px $_wm_border;
+
+  &:backdrop {
+    box-shadow: 0 2px 8px 0 transparent,
+                0 0 0 3px transparentize(black, if($variant == 'light', .85, .75));
+  }
+
+  .maximized &,
+  .fullscreen &,
+  .tiled &,
+  .tiled-top &,
+  .tiled-right &,
+  .tiled-bottom &,
+  .tiled-left & { border-width: 0; }
+
+  .popup & { border-width: 0; }
+
+  .ssd & {
+    box-shadow: 0 0 0 1px $_wm_border;
+    border-width: 0;
+  }
+
+  .csd.popup & {
+    box-shadow: $_menu_shadow,
+                0 0 0 1px transparentize($_wm_border, 0.1);
+    border-width: 0;
+  }
+
+  tooltip.csd & { border: 0; }
+
+  messagedialog.csd & {
+    border-width: 0;
+    box-shadow: 0 1px 4px transparentize(black, 0.8);
+  }
+}
+
+// Window Close button
+button.titlebutton:not(.appmenu) {
+  $_titlebutton_bg: lighten($bg_color, 10%);
+  color: transparent;
+  background: $_titlebutton_bg;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+  border: 1px solid $alt_borders_color;
+  box-shadow: $_widget_inset_shadow;
+  -gtk-icon-shadow: none;
+  transition: all .2s;
+
+  & + & { margin-left: 0; }
+  &:last-child { margin-right: 5px; }
+
+  @at-root %titlebutton_hover,
+  &:hover {
+    color: $fg_color;
+    background: $_titlebutton_bg;
+    border-color: transparent;
+    box-shadow: 0 0 0 1px $borders_color;
+  }
+
+  &.close {
+    color: if($variant=='light', white, black);
+    background: $selected_bg_color;
+    border-color: transparent;
+
+    &:hover {
+      color: if($variant=='light', black, white);
+      background: mix(white, $selected_bg_color, 10%);
+    }
+
+    @if lightness($selected_bg_color) > 60%
+     or lightness($selected_bg_color) < 20% {
+      &, &:hover { color: $selected_fg_color; }
+    }
+  }
+
+  .maximized &,
+  .fullscreen &,
+  .tiled &,
+  .tiled-top &,
+  .tiled-right &,
+  .tiled-bottom &,
+  .tiled-left & {
+      &:last-child { margin-right: 0; }
+      &:first-child { margin-left: 0; }
+  }
+
+  &:backdrop,
+  &:backdrop:hover {
+    color: transparent;
+    background: transparent;
+    box-shadow: none;
+    border-color: $backdrop_borders_color;
+    background: $shadow_color;
+  }
+}

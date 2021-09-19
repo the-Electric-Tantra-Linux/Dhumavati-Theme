@@ -1,0 +1,186 @@
+[20210813]
+ * GTK3: Regenerate theme css files
+ * GTK3: change nautilus selected sidebar row backdrop color
+ * GTK3: Improve gnome-tweaks sidebar
+ * GTK3: Change color of selected row
+ * GTK3: Fix background color of hovered popover elements
+ * GTK3: Revert modified selected design and add new one only for sidebar rows (fixes #18)
+ * GTK3: Improve design of xfce's logout-dialog
+ * GTK3: Improve design of xfce notifications (fixes #17)
+
+[20210806]
+ * Regenerate assets for xfwm4 and metacity
+ * Update xfwm4 assets to match gtk titlebuttons
+ * Replace obsolete inkscape option --export-png with --export-filename
+ * Add include src/Makefile.inc to main Makefile
+
+[20210730]
+ * Regenerate css files
+ * GTK3: Join sidebars with left headerbars
+ * GTK3: Don't use headerbar styles for titlebars
+ * GTK4: Reduce volumen of close/minimize/maximize buttons
+ * GTK3: Add outline design to selected rows
+ * GTK3: Reduce volumen of close/minimize/maximize buttons
+
+[20210718]
+ * GTK3: remove nautilus sidebar image on backdrop mode
+ * Fix background of checked stackswitcher button
+ * Gnome-Shell: Fix .app-folder background
+ * Gnome-Shell: Update for GNOME 40.3
+ * Add white variant
+ * Regenerate GTK3 css
+ * GTK3: increase row outline-offset
+ * GTK3: improve design of nautilus sidebar on backdrop mode
+ * GTK3: improve visibility of selected text
+ * GTK3: fix nautilus sidebar for NVIDIA GPUs
+ * GTK3: fix issues introduced with the new 'selected-items' design
+
+[20210714]
+ * Regenerate GTK3 css
+ * GTK3: new design for selected items
+ * GTK3: fix border-color for colored buttons
+ * GTK3: Fix dialog titlebars
+ * Change GNOME theme names to match naming pattern of GTK and XFWM
+
+[20210706]
+ * Fix templates Makefile for new GNOME themes
+ * Generate css
+ * Generate gnome themes
+ * Add gnome theme assets
+ * Add GNOME 3.38 & 3.36 css theme files based on Flat-Remix-GNOME
+ * Add GNOME 40 css theme files based on Flat-Remix-GNOME
+ * Fix background of stackswitcher checked button
+ * Update libhandy to 1.2.3
+
+[20210624]
+ * Rebuild theme
+ * New GTK2 theme
+ * Create LICENSE
+ * Reduce thunar root warning
+ * Regenerate css
+ * Add custom title-buttons to gtk4 theme
+ * Fix gtk3 close button border on backdrop state
+ * Update gtk4 theme to upstream 4.2.1
+
+[20210603]
+ * Update libhandy gtk theme base
+ * Remove border to title-buttons
+ * Regenerate metacity assets
+ * Improve script for metacity assets (fixes #7)
+ * Improve xfwm4 assets rendering script
+
+[20210526]
+ * Change close button's icon color to white on highlight
+ * Update metacity titlebutton margins
+ * Update xfwm4 titlebutton margins
+ * Generate metacity and xfwm4 assets
+ * Update xfwm4 titlebuttons design matching GTK3
+ * Update css
+ * Improve titlebuttons for GTK3
+ * Fix title alignment in metacity theme
+
+[20210511]
+ * Tweak cinnamon menu design
+ * Fix text color for cinnamon's panel taskmanager
+ * New cinnamon switches assets
+ * Remove cinnamon menus tranparency
+ * Improve cinnamon switches visibility
+ * Make tabs more visible for dark themes
+ * Update sync.sh for gtk 3.24.29
+ * Fix make clean
+ * Generate variants for cinnamon assets
+ * Fix cinnamon css file names
+ * Add cinnamon base assets
+ * Generate cinnamon css
+ * Add scss files for cinnamon themes
+
+[20210504]
+ * Remove unnecessary gtk2 them files inside XFWM4 themes
+ * Add metacity themes
+ * templates makefile: ensure all directories are created
+ * Fix ln inside gtk3 assets makefile
+ * Fix generate-color-theme.sh issue with COLOR_VARIANTS variable (fixes !4)
+
+[20210415]
+ * Use darker color for xfwm close icon
+ * Update assets
+ * Recover lost changes 'Fix hover highlights for light theme'
+ * Increase app-notification border-radius
+ * Add new titlebuttons for XFWM
+ * Update gtk3 upstream sync script to 3.24.28
+ * Set close button background to theme color to easily differentiate the focused window
+ * Match tab background with notebook stack
+ * Make buttons lighter for dark themes
+ * Make backdrop border color more visible (again :D)
+ * Remove unused variable from make dist
+ * Fix gtk3 makefile missing directory
+ * Add release rule to Makefile
+
+[20210407]
+ * Regenerate gtk3 css
+ * Generate GTK4 css
+ * Add assets for GTK4
+ * Improve gitignores
+ * Update symbolic icons for GTK 3 & 4
+ * Port gtk3 tweaks for upstream Adwaita to GTK4
+ * Set default bg and fg color for GTK4 base scss
+ * Add scss base files for GTK4
+ * Update _colors.scss for GTK4
+ * Theme buttons for GTK4
+ * Reduce gtk4 border-radius
+ * Add gtk4 upstream scss code
+ * sass make build, run clean first
+ * Fix xfce4-panel battery icon-size
+ * Make backdrop border color more visible
+
+[20210315]
+ * Update gtk 3.24.27
+
+[20210306]
+ * Add lots of new variants
+ * Add all variants to the script
+ * Add script to generate custom color themes
+ * Improve templates script
+ * Improve gtk css Makefile to allow color variants
+ * Ensure template script creates the required dirs
+ * Ensure xfwm4 theme dirs are created with the asset render script
+ * Remove kali-dragon from gtk3 assets template
+ * Move files for GTK4
+ * Reduce scrollbar size
+ * Cleaner patch for _drawing.scss
+ * Update gtk upstream to 3.24.26
+
+[20210225]
+ * Update screenshots
+ * Add new design title-buttons design for xfce
+ * Add new design for titlebuttons
+ * Fix hover highlights for light theme
+
+[20201230]
+ * Update scale slider assets matching the new slider design
+ * Match titlebutton placement with xfwm4 theme
+ * Use button styling for switch and scale sliders
+ * Fix flat button styles override the background of other hovered buttons
+
+[20201223]
+ * Remove background-size from headerbar
+ * Use the same shadows for the switch, check, radio, switch and entry widgets
+ * Fix hovered inforbar flat buttons
+ * Make dialog headerbar blend with the window content
+ * Theme flat buttons
+ * Theme notebook tabs
+ * Theme calendar
+ * Theme treeviews
+ * Remove text-shadow from buttons
+ * Improve button visibility with lighter background colors
+ * Reduce border-radius to button like widgets
+ * Update gtk 3.24.24
+ * Update libhandy from upstream
+
+[20201128]
+ * Make nautilus path-bar-box border lighter in backdrop mode
+ * Lighten backdrop border color
+ * Make symbolic most xfce's panel buttons
+
+[20201104]
+ * First release
