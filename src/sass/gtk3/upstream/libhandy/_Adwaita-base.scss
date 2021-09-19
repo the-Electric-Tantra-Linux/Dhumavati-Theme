@@ -19,7 +19,7 @@ popover.combo {
       min-height: 50px;
 
       &:not(:last-child) {
-        border-bottom: 1px solid hdyalpha($borders_color, 0.5);
+        border-bottom: 1px solid hdyalpha($borders_color, 0.5)
       }
 
       &:first-child {
@@ -82,8 +82,7 @@ keypad {
 // HdyViewSwitcher
 
 viewswitcher {
-  &,
-  & button {
+  &, & button {
     margin: 0;
     padding: 0;
   }
@@ -136,11 +135,8 @@ viewswitcher {
         // Reimplementation of $button_fill from Adwaita. The colors are made
         // only 70% visible to avoid the highlight to be too strong.
         $c: hdyalpha($bg_color, 0.7);
-        $button_fill: if(
-          $variant == 'light',
-          linear-gradient(to top, shade($c, 0.96) 2px, $c),
-          linear-gradient(to top, shade($c, 0.99) 2px, $c)
-        ) !global;
+        $button_fill: if($variant == 'light', linear-gradient(to top, shade($c, 0.96) 2px, $c),
+                                              linear-gradient(to top, shade($c, 0.99) 2px, $c)) !global;
         background-image: $button_fill;
       }
 
@@ -201,16 +197,7 @@ viewswitcher {
 
       > stack > box label {
         animation: needs_attention 150ms ease-in;
-        background-image: -gtk-gradient(
-            radial,
-            center center,
-            0,
-            center center,
-            0.5,
-            to(#8b9cbe),
-            to(transparent)
-          ),
-          -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(255, 255, 255, 0.769231)), to(transparent));
+        background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#3584e4), to(transparent)), -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(255, 255, 255, 0.769231)), to(transparent));
         background-size: 6px 6px, 6px 6px;
         background-repeat: no-repeat;
         background-position: right 0px, right 1px;
@@ -339,8 +326,7 @@ window.csd.unified:not(.solid-csd):not(.fullscreen) {
   > decoration-overlay {
     // Use a white sheen instead of @borders, as it has to be neutral enough
     // for any content and not just headerbar background
-    box-shadow: inset 0 1px
-      rgba(255, 255, 255, if($variant == 'light', 0.34, 0.065));
+    box-shadow: inset 0 1px rgba(255, 255, 255, if($variant == 'light', 0.34, 0.065));
   }
 
   &:not(.tiled):not(.tiled-top):not(.tiled-bottom):not(.tiled-left):not(.tiled-right):not(.maximized) {
@@ -366,27 +352,22 @@ statuspage > scrolledwindow > viewport > box > clamp > box > .icon {
 
 @mixin undershoot-gradient($dir) {
   @if $variant == 'dark' {
-    background: linear-gradient(
-      to #{$dir},
-      transparentize(black, 0.6),
-      transparentize(black, 1) 20px
-    );
-  } @else {
-    background: linear-gradient(
-      to #{$dir},
-      transparentize(black, 0.93),
-      transparentize(black, 1) 20px
-    );
+    background: linear-gradient(to #{$dir},
+                                transparentize(black, .6),
+                                transparentize(black, 1) 20px);
+  }
+  @else {
+    background: linear-gradient(to #{$dir},
+                                transparentize(black, .93),
+                                transparentize(black, 1) 20px);
   }
 }
 
 @mixin need-attention-gradient($dir) {
-  background: linear-gradient(
-    to #{$dir},
-    transparentize($selected_bg_color, 0.3),
-    transparentize($selected_bg_color, 0.5) 1px,
-    transparentize($selected_bg_color, 1) 20px
-  );
+  background: linear-gradient(to #{$dir},
+                              transparentize($selected_bg_color, .3),
+                              transparentize($selected_bg_color, .5) 1px,
+                              transparentize($selected_bg_color, 1) 20px);
 }
 
 tabbar {
@@ -443,20 +424,20 @@ tabbar {
     transition: none;
 
     &.left {
-      @include undershoot-gradient('right');
+      @include undershoot-gradient("right");
     }
 
     &.right {
-      @include undershoot-gradient('left');
+      @include undershoot-gradient("left");
     }
   }
 
   .needs-attention-left undershoot.left {
-    @include need-attention-gradient('right');
+    @include need-attention-gradient("right");
   }
 
   .needs-attention-right undershoot.right {
-    @include need-attention-gradient('left');
+    @include need-attention-gradient("left");
   }
 
   tab {
@@ -530,15 +511,11 @@ tabbar {
     min-height: 26px;
     background-color: lighten($tab_bg, 9%);
 
-    $_wm_border: if(
-      $variant== 'light',
-      transparentize(black, 0.77),
-      transparentize($borders_color, 0.1)
-    );
+    $_wm_border: if($variant=='light', transparentize(black, 0.77), transparentize($borders_color, 0.1));
 
-    box-shadow: 0 3px 9px 1px transparentize(black, 0.75), 0 0 0 1px $_wm_border,
-      //doing borders with box-shadow
-        inset 0 1px $top_hilight;
+    box-shadow: 0 3px 9px 1px transparentize(black, 0.75),
+                0 0 0 1px $_wm_border, //doing borders with box-shadow
+                inset 0 1px $top_hilight;
 
     margin: 25px;
   }
@@ -550,12 +527,11 @@ tabbar,
     padding: 6px;
 
     &.needs-attention {
-      background-image: radial-gradient(
-        ellipse at bottom,
-        transparentize(white, 0.2),
-        transparentize($selected_bg_color, 0.8) 15%,
-        transparentize($selected_bg_color, 1) 15%
-      );
+      background-image:
+        radial-gradient(ellipse at bottom,
+                        transparentize(white, .2),
+                        transparentize($selected_bg_color, .8) 15%,
+                        transparentize($selected_bg_color, 1) 15%);
     }
 
     .tab-close-button,
@@ -576,11 +552,11 @@ tabbar,
     .tab-close-button,
     .tab-indicator.clickable {
       &:hover {
-        background: hdyalpha($fg_color, 0.15);
+        background: hdyalpha($fg_color, .15);
       }
 
       &:active {
-        background: hdyalpha(black, 0.2);
+        background: hdyalpha(black, .2);
       }
     }
   }

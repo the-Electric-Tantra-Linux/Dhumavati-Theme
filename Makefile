@@ -1,5 +1,5 @@
-PKGNAME = Dhumavati
-MAINTAINER = Thomas Leon Highbaugh 
+PKGNAME = Dhumavati-gtk
+MAINTAINER = Thomas Leon Highbaugh
 PREFIX ?= /usr
 THEMES ?= $(patsubst %/index.theme,%,$(wildcard */index.theme))
 
