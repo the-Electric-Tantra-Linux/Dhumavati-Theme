@@ -40,21 +40,10 @@ dist: _get_version
 	done; \
 
 release: _get_version
-	$(MAKE) generate_changelog VERSION=$(VERSION)
 	git tag -f $(VERSION)
 	git push origin --tags
 	$(MAKE) dist
 
-generate_changelog: _get_version _get_tag
-	git checkout $(TAG) CHANGELOG
-	mv CHANGELOG CHANGELOG.old
-	echo [$(VERSION)] > CHANGELOG
-	printf "%s\n\n" "$$(git log --pretty=format:' * %s' $(TAG)..HEAD)" >> CHANGELOG
-	cat CHANGELOG.old >> CHANGELOG
-	rm CHANGELOG.old
-	vim CHANGELOG
-	git commit CHANGELOG -m "Update CHANGELOG version $(VERSION)"
-	git push origin HEAD
 
 clean:
 	-make -C src clean
