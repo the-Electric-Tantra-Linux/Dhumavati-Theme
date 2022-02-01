@@ -2,13 +2,13 @@ INKSCAPE?=inkscape
 OPTIPNG?=optipng -o7 --strip all --quiet
 SCSS?=sassc
 
-DEFAULT_THEME_COLOR?=\#2777ff
+DEFAULT_THEME_COLOR?=\#555e70
 COLOR_VARIANTS?=Black Blue Brown Cyan Green Grey Magenta Orange Red Teal Violet White Yellow
 
 COLOR_Black?=\#000000
 TEXT_COLOR_Black?=\#f4f4f7
 
-COLOR_Blue?=\#2777ff
+COLOR_Blue?=\#555e70
 TEXT_COLOR_Blue?=\#f4f4f7
 
 COLOR_Brown?=\#c37837
