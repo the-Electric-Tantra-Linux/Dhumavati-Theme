@@ -71,6 +71,7 @@ print s "---------------------------------"
 print s "Changing permissions of the output files."
 # Because within the container, everything was built by root, this enables the use of the themes in the user repository and my ability to release them on Github
 #
+tar -xvf out.tar -C ./out
 sudo chown -Rv 777 "$PWD"/out
 print s "---------------------------------"
 print s "---------------------------------"
