@@ -3,13 +3,13 @@
 
 $_dark_base_color: #17191e;
 
-$base_color: if($variant == 'light', darken(#ffffff, 2%), $_dark_base_color);
+$base_color: if($variant == 'light', darken(#f4f4f7, 2%), $_dark_base_color);
 $text_color: if($variant == 'light', #22262d, #f2f2f2);
-$bg_color: if($variant == 'light', #ffffff, darken($_dark_base_color, 5%));
+$bg_color: if($variant == 'light', #f4f4f7, darken($_dark_base_color, 5%));
 $fg_color: if($variant == 'light', #555e70, #e9efff);
 
-$selected_fg_color: #ffffff!default;
-$selected_bg_color: saturate(#367bf0, 20%)!default;
+$selected_fg_color: #f4f4f7!default;
+$selected_bg_color: saturate(#555e70, 20%)!default;
 $selected_borders_color: if(
   $variant== 'light',
   darken($selected_bg_color, 15%),
@@ -183,6 +183,6 @@ $osd_button_border: transparentize(darken($osd_bg_color, 12%), 0.6);
 $osd_entry_bg: $osd_button_bg;
 $osd_entry_border: $osd_button_border;
 $separator_color: if($variant == 'light', #b2bfd9, darken($bg_color, 6%));
-$tooltip_bg_color: #8b9cbe;
+$tooltip_bg_color: #555e70;
 $tooltip_border_color: #b2bfd9;
-$tooltip_fg_color: #555e70;
+$tooltip_fg_color: #f4f4f7;

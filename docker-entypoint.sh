@@ -1,23 +1,23 @@
-#!/bin/bash 
-#  _____              __                   
-# |     \.-----.----.|  |--.-----.----.    
-# |  --  |  _  |  __||    <|  -__|   _|    
-# |_____/|_____|____||__|__|_____|__|      
-                                         
-#  ______         __ __     __             
-# |   __ \.--.--.|__|  |.--|  |            
-# |   __ <|  |  ||  |  ||  _  |            
-# |______/|_____||__|__||_____|            
-                                         
-#  _______             __         __       
-# |     __|.----.----.|__|.-----.|  |_     
-# |__     ||  __|   _||  ||  _  ||   _|    
-# |_______||____|__|  |__||   __||____|    
-#                         |__|             
+#!/bin/bash
+#  _____              __
+# |     \.-----.----.|  |--.-----.----.
+# |  --  |  _  |  __||    <|  -__|   _|
+# |_____/|_____|____||__|__|_____|__|
+
+#  ______         __ __     __
+# |   __ \.--.--.|__|  |.--|  |
+# |   __ <|  |  ||  |  ||  _  |
+# |______/|_____||__|__||_____|
+
+#  _______             __         __
+# |     __|.----.----.|__|.-----.|  |_
+# |__     ||  __|   _||  ||  _  ||   _|
+# |_______||____|__|  |__||   __||____|
+#                         |__|
 ###########################################################################
 ###########################################################################
 ###########################################################################
-# This script serves as an entrypoint to using docker to build the theme variants and not clog the local system with its artifacts. 
+# This script serves as an entrypoint to using docker to build the theme variants and not clog the local system with its artifacts.
 
 # First output candy for the script's echo statements
 cr="$(tput setaf 1)"
@@ -57,26 +57,28 @@ print s "---------------------------------"
 print s "---------------------------------"
 print s "---------------------------------"
 print s "Building GTK Theme Within Docker Container"
-#  Builds the GTK theme variants and dumps them in /out 
+#  Builds the GTK theme variants and dumps them in /out
 #
-docker build -o out .
+mkdir "$PWD"/out
+docker build -t Dhumavati .
+sudo docker cp Dhumavati:/dist "$PWD"/out
 
-print s "The files from the build should be available within the ./out directory"
+print s "The files from the build should be available within the out directory"
 print s "---------------------------------"
 print s "---------------------------------"
 print s "---------------------------------"
 print s "Changing permissions of the output files."
 # Because within the container, everything was built by root, this enables the use of the themes in the user repository and my ability to release them on Github
 #
-sudo chown -Rv 777 out
+sudo chown -Rv 777 "$PWD"/out
 print s "---------------------------------"
 print s "---------------------------------"
 print s "---------------------------------"
 print s "Installing the theme locally"
 ## This will go into the directory that the files were dumped into and run the Makefile's install command
-cd ./out && sudo make install 
+cd "$PWD"/out/dist/Dhumavati-Theme && sudo make install
 
 print s "---------------------------------"
 print s "---------------------------------"
-print s "---------------------------------" 
+print s "---------------------------------"
 print t "The themes should now be installed and ready for use locally."
