@@ -59,9 +59,10 @@ print s "---------------------------------"
 print s "Building GTK Theme Within Docker Container"
 #  Builds the GTK theme variants and dumps them in /out
 #
-mkdir "$PWD"/out
-docker build -t Dhumavati .
-sudo docker cp Dhumavati:/dist "$PWD"/out
+
+mkdir -p "$PWD"/out
+DOCKER_BUILDKIT=1 docker build --output type=tar,dest=out.tar .
+#sudo docker cp dhumavati:latest:/dist "$PWD"/out
 
 print s "The files from the build should be available within the out directory"
 print s "---------------------------------"
