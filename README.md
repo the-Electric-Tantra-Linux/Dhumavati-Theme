@@ -1,5 +1,9 @@
-# Dhumavati Theme 
+# Dhumavati Theme
 
-A dark, skeudomorphic GTK3 theme which is part of the Electric Tantra Linux. 
+A dark, skeudomorphic GTK3 theme which is part of the Electric Tantra Linux.
 
-> If you are looking for the theme directories already built, they are in `./out/dist/Dhumavati-Theme/`. To install them, `cd` there and run `sudo make install` 
+
+> For the themes themselves, just checkout the releases page of this repository and each one is available from there.
+
+
+This project began life as a fork of [skeuos-gtk by daniruiz](https://github.com/daniruiz/skeuos-gtk) and continues to mutate from there haphazardly.
