@@ -60,7 +60,7 @@
 		</defs>
 		<rect x="1.9531" y="86.25" width="378.05" height="74.219" style="fill:#f2f2f2"/>
 		<rect x="470.7" y="4" width="165.3" height="472" style="fill:#fff"/>
-		<rect x="597" y="4" width="18" height="472" style="fill:#8b9cbe"/>
+		<rect x="597" y="4" width="18" height="472" style="fill:#2777ff"/>
 		<rect x="224" y="5" width="68" height="48" style="fill:#c3c4c4"/>
 		<g id="entry" transform="translate(3,-36)">
 				<rect x="7" y="86" width="10" height="32" rx="0" ry="0" style="color:#000000;fill:#fff"/>
@@ -94,7 +94,7 @@
 		<g id="scrollbar-vert-slider-active" transform="translate(0,-8)">
 				<rect x="266" y="31" width="13" height="13" style="fill:none"/>
 				<a transform="translate(-30,34)" style="fill:#8db7ff">
-						<rect x="300" width="6" height="7" rx="3" ry="3" style="fill:#8b9cbe"/>
+						<rect x="300" width="6" height="7" rx="3" ry="3" style="fill:#2777ff"/>
 				</a>
 		</g>
 		<g id="scrollbar-vert-trough" transform="translate(-80)">
@@ -120,11 +120,11 @@
 		<g id="scrollbar-horz-slider-active" transform="translate(0,-8)">
 				<rect transform="rotate(90)" x="14.5" y="-279" width="13" height="13" style="fill:none"/>
 				<a transform="rotate(90,278.75,-2.75)" style="fill:#8db7ff">
-						<rect x="300" width="6" height="7" rx="3" ry="3" style="fill:#8b9cbe"/>
+						<rect x="300" width="6" height="7" rx="3" ry="3" style="fill:#2777ff"/>
 				</a>
 		</g>
 		<rect id="line" x="474" y="7" width="1" height="1" style="fill-opacity:.1"/>
-		<rect id="menubar-item-active" x="211" y="7" width="1" height="3" style="fill:#8b9cbe"/>
+		<rect id="menubar-item-active" x="211" y="7" width="1" height="3" style="fill:#2777ff"/>
 		<g id="menu-radio-insensitive" transform="translate(456,-419)">
 				<rect x="160" y="487" width="16" height="16" style="color:#bebebe;fill:none"/>
 				<path d="m167.99 488.51c-3.5876 0-6.5009 2.9134-6.5009 6.5009s2.9134 6.5009 6.5009 6.5009 6.5009-2.9134 6.5009-6.5009c0-3.5876-2.9134-6.5009-6.5009-6.5009z" style="color:#bebebe;fill:none;stroke-width:.99817;stroke:#8b8e8f;text-decoration-line:none;text-indent:0pt;text-transform:none"/>
@@ -309,7 +309,7 @@
 				<rect x="133" y="84" width="26" height="26" rx="0" ry="0" style="color:#000000;fill:none"/>
 				<g transform="translate(135,86)">
 						<rect x="1.5" y="1.5" width="19" height="19" rx="19" ry="19" style="color:#000000;fill:#fff"/>
-						<rect x="1.5" y="1.5" width="19" height="19" rx="19" ry="19" style="color:#000000;fill:none;stroke:#8b9cbe"/>
+						<rect x="1.5" y="1.5" width="19" height="19" rx="19" ry="19" style="color:#000000;fill:none;stroke:#2777ff"/>
 				</g>
 		</g>
 		<g id="scale-slider-insensitive" transform="translate(49,230)">
@@ -366,10 +366,10 @@
 				<rect x="50" y="50" width="10" height="32" rx="0" ry="0" style="color:#000000;fill:#fff"/>
 				<rect x="51.5" y="51.5" width="7" height="29" rx="2.5" ry="2.5" style="color:#000000;fill:#fff"/>
 				<g transform="translate(50,-30)" clip-path="url(#clipPath6964)" style="stroke-width:.1">
-						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke-width:3;stroke:#8b9cbe"/>
+						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke-width:3;stroke:#2777ff"/>
 				</g>
 				<g transform="translate(50,-30)">
-						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke:#8b9cbe"/>
+						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke:#2777ff"/>
 				</g>
 		</g>
 		<g id="combo-entry-ltr-entry" transform="translate(3,-35)">
@@ -421,10 +421,10 @@
 				<rect x="47" y="125" width="10" height="32" rx="0" ry="0" style="color:#000000;fill:#fff"/>
 				<rect x="48.5" y="126.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:url(#linearGradient7262)"/>
 				<g transform="translate(47,45)" clip-path="url(#clipPath7300)" style="stroke-width:.1">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:#fff;stroke-width:3;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:#fff;stroke-width:3;stroke:#2777ff"/>
 				</g>
 				<g transform="translate(47,45)">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#2777ff"/>
 				</g>
 		</g>
 		<g id="combo-entry-ltr-entry-insensitive" transform="translate(63,-35)">
@@ -486,10 +486,10 @@
 				<rect x="48.5" y="126.5" width="7" height="29" rx="2.5" ry="2.5" style="color:#000000;fill:#fff"/>
 				<rect x="47" y="125" width="10" height="32" rx="0" ry="0" style="color:#000000;fill:none"/>
 				<g transform="translate(47,45)" clip-path="url(#clipPath7300)" style="stroke-width:.1">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke-width:3;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke-width:3;stroke:#2777ff"/>
 				</g>
 				<g transform="translate(47,45)">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#2777ff"/>
 				</g>
 		</g>
 		<g id="combo-entry-rtl-entry-insensitive" transform="matrix(-1,0,0,1,193,-35)">
@@ -593,7 +593,7 @@
 		<g id="scrollbar-vert-slider-active-rtl" transform="matrix(-1,0,0,1,545,8)">
 				<rect x="266" y="31" width="13" height="13" style="fill:none"/>
 				<a transform="translate(-30,34)" style="fill:#8db7ff">
-						<rect x="300" width="6" height="7" rx="3" ry="3" style="fill:#8b9cbe"/>
+						<rect x="300" width="6" height="7" rx="3" ry="3" style="fill:#2777ff"/>
 				</a>
 		</g>
 		<g id="treeview-separator-rtl" transform="matrix(-1,0,0,1,966,0)">
@@ -881,10 +881,10 @@
 				<rect x="47" y="48" width="10" height="32" rx="0" ry="0" style="color:#000000;fill:#fff"/>
 				<rect x="48.5" y="49.5" width="7" height="29" rx="2.5" ry="2.5" style="color:#000000;fill:#fff"/>
 				<g transform="translate(47,-32)" clip-path="url(#clipPath6964)" style="stroke-width:.1">
-						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke-width:3;stroke:#8b9cbe"/>
+						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke-width:3;stroke:#2777ff"/>
 				</g>
 				<g transform="translate(47,-32)">
-						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke:#8b9cbe"/>
+						<rect x="1.5" y="81.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:none;stroke:#2777ff"/>
 				</g>
 		</g>
 		<g id="notebook-combo-entry-ltr-entry" transform="translate(193,-35)">
@@ -901,10 +901,10 @@
 				<rect x="47" y="125" width="10" height="32" rx="0" ry="0" style="color:#000000;fill:#fff"/>
 				<rect x="48.5" y="126.5" width="7" height="29" rx="3" ry="3" style="color:#000000;fill:#fff"/>
 				<g transform="translate(47,45)" clip-path="url(#clipPath7300)" style="stroke-width:.1">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke-width:3;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke-width:3;stroke:#2777ff"/>
 				</g>
 				<g transform="translate(47,45)">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#2777ff"/>
 				</g>
 		</g>
 		<g id="notebook-combo-entry-ltr-entry-insensitive" transform="translate(253,-35)">
@@ -931,10 +931,10 @@
 				<rect x="47" y="125" width="10" height="32" rx="0" ry="0" style="color:#000000;fill:#fff"/>
 				<rect x="48.5" y="126.5" width="7" height="29" rx="2.5" ry="2.5" style="color:#000000;fill:#fff"/>
 				<g transform="translate(47,45)" clip-path="url(#clipPath7300)" style="stroke-width:.1">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke-width:3;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke-width:3;stroke:#2777ff"/>
 				</g>
 				<g transform="translate(47,45)">
-						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#8b9cbe"/>
+						<path d="m4.5 81.5h5v29h-5c-1.662 0-3-1.338-3-3v-23c0-1.662 1.338-3 3-3z" style="color:#000000;fill:none;stroke:#2777ff"/>
 				</g>
 		</g>
 		<g id="notebook-combo-entry-rtl-entry-insensitive" transform="matrix(-1,0,0,1,381,-35)">
@@ -1070,36 +1070,36 @@
 				</g>
 		</g>
 		<g id="progressbar-horz" transform="translate(-12,-42)">
-				<path d="m138 68c-1.0994 0-2 0.90065-2 2s0.90065 2 2 2h1c1.0994 0 2-0.90065 2-2s-0.90065-2-2-2z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe"/>
+				<path d="m138 68c-1.0994 0-2 0.90065-2 2s0.90065 2 2 2h1c1.0994 0 2-0.90065 2-2s-0.90065-2-2-2z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff"/>
 				<rect x="136.5" y="68.5" width="4" height="3" rx="0" ry="1.5" style="color:#000000;fill:none;mix-blend-mode:normal;stroke-opacity:.49718;stroke:#000"/>
 		</g>
 		<g id="progressbar-vert" transform="translate(-12,-46)">
-				<path d="m153 73c0-1.0994-0.90065-2-2-2s-2 0.90065-2 2v1c0 1.0994 0.90065 2 2 2s2-0.90065 2-2z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe"/>
+				<path d="m153 73c0-1.0994-0.90065-2-2-2s-2 0.90065-2 2v1c0 1.0994 0.90065 2 2 2s2-0.90065 2-2z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff"/>
 				<rect transform="rotate(90)" x="71.5" y="-152.5" width="4" height="3" rx="0" ry="1.5" style="color:#000000;fill:none;mix-blend-mode:normal;stroke-opacity:.49718;stroke:#000"/>
 		</g>
 		<g id="scale-vert-trough-active" transform="translate(-181.5,175.5)">
-				<path transform="rotate(90)" d="m118.5-349.5c-1.0994 0-2 0.90065-2 2s0.90065 2 2 2h1c1.0994 0 2-0.90065 2-2s-0.90065-2-2-2z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe"/>
+				<path transform="rotate(90)" d="m118.5-349.5c-1.0994 0-2 0.90065-2 2s0.90065 2 2 2h1c1.0994 0 2-0.90065 2-2s-0.90065-2-2-2z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff"/>
 				<rect transform="rotate(90)" x="107.5" y="-360.5" width="23" height="26" rx="0" ry="0" style="color:#000000;fill:none"/>
 				<rect transform="rotate(90)" x="117" y="-349" width="4" height="3" rx="0" ry="1.5" style="color:#000000;fill:none;mix-blend-mode:normal;stroke-opacity:.49718;stroke:#000"/>
 		</g>
 		<g id="scale-horz-trough-active" transform="translate(-189,176)">
 				<rect x="312" y="94" width="23" height="26" rx="0" ry="0" style="color:#000000;fill:none"/>
 				<rect x="312.48" y="107.22" width=".1" height=".1" style="fill:#ccc"/>
-				<path d="m324 109c1.0994 0 2-0.90065 2-2s-0.90065-2-2-2h-1c-1.0994 0-2 0.90065-2 2s0.90065 2 2 2z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe"/>
+				<path d="m324 109c1.0994 0 2-0.90065 2-2s-0.90065-2-2-2h-1c-1.0994 0-2 0.90065-2 2s0.90065 2 2 2z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff"/>
 				<rect transform="scale(-1)" x="-325.5" y="-108.5" width="4" height="3" rx="0" ry="1.5" style="color:#000000;fill:none;mix-blend-mode:normal;stroke-opacity:.49718;stroke:#000"/>
 		</g>
 		<g id="radio-checked" transform="matrix(.93341 0 0 .9329 -69.559 -24.037)">
 				<rect x="456.99" y="261.98" width="17.141" height="17.151" style="color:#000000;fill:none"/>
 				<g id="g44759">
-						<path d="m465.56 261.98c-4.7413 0-8.5742 3.8312-8.5742 8.5703s3.8329 8.5703 8.5742 8.5703 8.5762-3.8312 8.5762-8.5703-3.8349-8.5703-8.5762-8.5703z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe;stroke-linejoin:round"/>
-						<rect x="457.52" y="262.52" width="16.079" height="16.07" rx="8.4419" ry="8.5877" style="color-rendering:auto;color:#000000;fill:#8b9cbe;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.5;shape-rendering:auto;solid-color:#000000;stroke-linejoin:round;stroke-width:1.0716;stroke:#000"/>
+						<path d="m465.56 261.98c-4.7413 0-8.5742 3.8312-8.5742 8.5703s3.8329 8.5703 8.5742 8.5703 8.5762-3.8312 8.5762-8.5703-3.8349-8.5703-8.5762-8.5703z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff;stroke-linejoin:round"/>
+						<rect x="457.52" y="262.52" width="16.079" height="16.07" rx="8.4419" ry="8.5877" style="color-rendering:auto;color:#000000;fill:#2777ff;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.5;shape-rendering:auto;solid-color:#000000;stroke-linejoin:round;stroke-width:1.0716;stroke:#000"/>
 						<path d="m458.1 270.96c-6e-3 -0.1285-0.0361-0.26665-0.0361-0.39681 0-4.157 3.3447-7.5035 7.4994-7.5035s7.4994 3.3466 7.4994 7.5035c0 0.13016-0.0295 0.26831-0.036 0.39681-0.38268-3.7929-3.5684-6.7459-7.4634-6.7459s-7.0807 2.9531-7.4633 6.7459z" style="color-rendering:auto;color:#000000;fill-opacity:.2;fill:#fff;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000"/>
 				</g>
 				<rect id="use15101-6" x="462.35" y="267.34" width="6.4281" height="6.4316" rx="3.214" ry="3.214" style="color:#000000;fill-opacity:.93725;fill:#c21953"/>
 		</g>
 		<g id="checkbox-checked" transform="matrix(.99651 0 0 .9981 240.26 190.09)">
 				<g id="g20526">
-						<path transform="matrix(1.0035,0,0,1.0019,-241.1,-190.45)" d="m280.55 220.37c-1.9581 0-3.5449 1.6108-3.5449 3.5859v8.8223c0 1.9751 1.5868 3.5879 3.5449 3.5879h8.9121c1.9581 0 3.5449-1.6128 3.5449-3.5879v-8.8223c0-1.9751-1.5868-3.5859-3.5449-3.5859z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe;stroke-linejoin:round"/>
+						<path transform="matrix(1.0035,0,0,1.0019,-241.1,-190.45)" d="m280.55 220.37c-1.9581 0-3.5449 1.6108-3.5449 3.5859v8.8223c0 1.9751 1.5868 3.5879 3.5449 3.5879h8.9121c1.9581 0 3.5449-1.6128 3.5449-3.5879v-8.8223c0-1.9751-1.5868-3.5859-3.5449-3.5859z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff;stroke-linejoin:round"/>
 						<rect x="37.375" y="30.834" width="15.053" height="15.024" rx="3.0554" ry="3.092" style="color:#000000;fill:none;opacity:.5;stroke-linejoin:round;stroke-width:1.0027;stroke:#000"/>
 						<path d="m37.877 34.716v-1.0019c0-1.3364 1.0474-2.3795 2.3513-2.3795h9.3427c1.3039 0 2.3199 1.0431 2.3199 2.3795v1.0019c0-1.3364-1.0161-2.3795-2.3199-2.3795h-9.3427c-1.3039 0-2.3513 1.0431-2.3513 2.3795z" style="color:#000000;fill:#fff;opacity:.2;text-decoration-line:none;text-indent:0;text-transform:none"/>
 				</g>
@@ -1124,7 +1124,7 @@
 		</g>
 		<g id="checkbox-checked-hover" transform="matrix(.99851 0 0 .9981 240.15 210.09)">
 				<g id="g67703">
-						<path transform="matrix(1.0015,0,0,1.0019,-240.51,-210.49)" d="m280.5 240.37c-1.9305 0-3.5 1.5679-3.5 3.498v8.9942c0 1.9302 1.5695 3.502 3.5 3.502h9.0039c1.9305 0 3.5-1.5718 3.5-3.502v-8.9942c0-1.9302-1.5695-3.498-3.5-3.498z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe;stroke-linejoin:round;stroke-width:.9983"/>
+						<path transform="matrix(1.0015,0,0,1.0019,-240.51,-210.49)" d="m280.5 240.37c-1.9305 0-3.5 1.5679-3.5 3.498v8.9942c0 1.9302 1.5695 3.502 3.5 3.502h9.0039c1.9305 0 3.5-1.5718 3.5-3.502v-8.9942c0-1.9302-1.5695-3.498-3.5-3.498z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff;stroke-linejoin:round;stroke-width:.9983"/>
 						<path transform="matrix(1.0015,0,0,1.0019,-240.51,-210.49)" d="m280.5 240.37c-1.9305 0-3.5 1.5679-3.5 3.498v8.9942c0 1.9302 1.5695 3.502 3.5 3.502h9.0039c1.9305 0 3.5-1.5718 3.5-3.502v-8.9942c0-1.9302-1.5695-3.498-3.5-3.498z" style="-inkscape-stroke:none;color:#000000;fill:#fff;opacity:.1;stroke-linejoin:round;stroke-width:.9983"/>
 						<rect x="37.402" y="30.834" width="15.027" height="15.024" rx="3.0045" ry="3.0057" style="color-rendering:auto;color:#000000;fill:none;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.5;shape-rendering:auto;solid-color:#000000;stroke-linejoin:round;stroke-width:1.0017;stroke:#000"/>
 				</g>
@@ -1136,7 +1136,7 @@
 		</g>
 		<g id="radio-checked-hover" transform="matrix(.93893 0 0 .93842 -72.084 -5.4838)">
 				<g id="g78758">
-						<path transform="matrix(1.065,0,0,1.0656,76.772,5.8437)" d="m364.99 240.36c-4.4256 0-8.0059 3.5749-8.0059 7.9961s3.5803 7.9961 8.0059 7.9961c4.4255 0 8.0039-3.5749 8.0039-7.9961s-3.5784-7.9961-8.0039-7.9961z" style="-inkscape-stroke:none;color:#000000;fill:#8b9cbe;stroke-linejoin:round;stroke-width:.93868"/>
+						<path transform="matrix(1.065,0,0,1.0656,76.772,5.8437)" d="m364.99 240.36c-4.4256 0-8.0059 3.5749-8.0059 7.9961s3.5803 7.9961 8.0059 7.9961c4.4255 0 8.0039-3.5749 8.0039-7.9961s-3.5784-7.9961-8.0039-7.9961z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff;stroke-linejoin:round;stroke-width:.93868"/>
 						<path transform="matrix(1.065,0,0,1.0656,76.772,5.8437)" d="m364.99 240.36c-4.4256 0-8.0059 3.5749-8.0059 7.9961s3.5803 7.9961 8.0059 7.9961c4.4255 0 8.0039-3.5749 8.0039-7.9961s-3.5784-7.9961-8.0039-7.9961z" style="-inkscape-stroke:none;color:#000000;fill:#fff;opacity:.1;stroke-linejoin:round;stroke-width:.93868"/>
 						<rect x="457.51" y="262.51" width="15.984" height="15.976" rx="8.3923" ry="8.5373" style="color:#000000;fill:none;opacity:.5;stroke-linejoin:round;stroke-width:1.0653;stroke:#000"/>
 				</g>

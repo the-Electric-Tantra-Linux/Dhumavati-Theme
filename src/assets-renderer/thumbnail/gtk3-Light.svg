@@ -88,7 +88,7 @@
         <path
            transform="matrix(1.0035,0,0,1.0019,-241.1,-190.45)"
            d="m 280.55,220.37 c -1.9581,0 -3.5449,1.6108 -3.5449,3.5859 v 8.8223 c 0,1.9751 1.5868,3.5879 3.5449,3.5879 h 8.9121 c 1.9581,0 3.5449,-1.6128 3.5449,-3.5879 v -8.8223 c 0,-1.9751 -1.5868,-3.5859 -3.5449,-3.5859 z"
-           style="color:#000000;fill:#8b9cbe;stroke-linejoin:round;-inkscape-stroke:none"
+           style="color:#000000;fill:#2777ff;stroke-linejoin:round;-inkscape-stroke:none"
            id="path3800" />
         <rect
            x="37.375"
@@ -137,7 +137,7 @@
          id="g44759">
         <path
            d="m 465.56,261.98 c -4.7413,0 -8.5742,3.8312 -8.5742,8.5703 0,4.7391 3.8329,8.5703 8.5742,8.5703 4.7413,0 8.5762,-3.8312 8.5762,-8.5703 0,-4.7391 -3.8349,-8.5703 -8.5762,-8.5703 z"
-           style="color:#000000;fill:#8b9cbe;stroke-linejoin:round;-inkscape-stroke:none"
+           style="color:#000000;fill:#2777ff;stroke-linejoin:round;-inkscape-stroke:none"
            id="path3791" />
         <rect
            x="457.51999"
@@ -146,7 +146,7 @@
            height="16.07"
            rx="8.4419003"
            ry="8.5876999"
-           style="color:#000000;opacity:0.5;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#8b9cbe;stroke:#000000;stroke-width:1.0716;stroke-linejoin:round;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
+           style="color:#000000;opacity:0.5;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#2777ff;stroke:#000000;stroke-width:1.0716;stroke-linejoin:round;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
            id="rect3793" />
         <path
            d="m 458.1,270.96 c -0.006,-0.1285 -0.0361,-0.26665 -0.0361,-0.39681 0,-4.157 3.3447,-7.5035 7.4994,-7.5035 4.1547,0 7.4994,3.3466 7.4994,7.5035 0,0.13016 -0.0295,0.26831 -0.036,0.39681 -0.38268,-3.7929 -3.5684,-6.7459 -7.4634,-6.7459 -3.895,0 -7.0807,2.9531 -7.4633,6.7459 z"

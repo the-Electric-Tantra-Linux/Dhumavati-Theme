@@ -136,9 +136,7 @@ radio {
   $_shadow: 0 1px 2px transparentize($shadow_color, 0.03);
 
   &, menu menuitem &, menu menuitem:hover & {
-    background-image: linear-gradient(to bottom, $_c 20%, darken($_c, 2%) 90%);
-    border-color: $alt_borders_color;
-    box-shadow: $_widget_inset_shadow;
+    @include button(normal, $edge: $shadow_color);
 
     &:disabled, &:disabled:backdrop {
       &, &:checked, &:indeterminate {
@@ -208,22 +206,102 @@ headerbar {
     &.wide { margin: -8px 0; }
   }
 
-  &.default-decoration {
-    min-height: 0;
-    padding: 6px;
-
-    button.titlebutton {
-      min-height: 0;
-      min-width: 0;
-      margin: 0;
-    }
-  }
-
   dialog &,
   dialog &:backdrop {
     background: $bg_color;
     border: 0;
     box-shadow: none;
+  }
+
+  // Window Close button
+  button.titlebutton:not(.appmenu) {
+    $_titlebutton_bg: lighten($bg_color, 10%);
+    color: transparent;
+    background-image: -gtk-scaled(url('assets/titlebutton.png'), url('assets/titlebutton@2.png'));
+    background-size: 8px;
+    background-color: $_titlebutton_bg;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    min-width: 0;
+    min-height: 0;
+    border: 1px solid $alt_borders_color;
+    box-shadow: $_widget_inset_shadow;
+    -gtk-icon-shadow: none;
+    transition: all .2s;
+
+    & + button.titlebutton { margin-left: 0; }
+    &:last-child { margin-right: 5px; }
+
+    @at-root %titlebutton_hover,
+    &:hover {
+      background-color: $_titlebutton_bg;
+      border-color: transparent;
+      box-shadow: 0 0 0 1px $borders_color;
+
+      &.minimize {
+        background-image: -gtk-scaled(url('assets/minimize#{$asset_suffix}.png'), url('assets/minimize#{$asset_suffix}@2.png'));
+      }
+      &.maximize {
+        background-image: -gtk-scaled(url('assets/maximize#{$asset_suffix}.png'), url('assets/maximize#{$asset_suffix}@2.png'));
+      }
+    }
+
+    &.close {
+      background-color: $selected_bg_color;
+      @if $variant == 'light' and lightness($selected_bg_color) < 60% {
+        background-image: -gtk-scaled(url('assets/close-white.png'), url('assets/close-white@2.png'));
+      } @else {
+        background-image: -gtk-scaled(url('assets/close-black.png'), url('assets/close-black@2.png'));
+      }
+      border-color: transparent;
+
+      &:hover {
+        background-color: mix(white, $selected_bg_color, 20%);
+        background-size: 6px;
+      }
+    }
+
+    .maximized &,
+    .fullscreen &,
+    .tiled &,
+    .tiled-top &,
+    .tiled-right &,
+    .tiled-bottom &,
+    .tiled-left & {
+        &:last-child { margin-right: 0; }
+        &:first-child { margin-left: 0; }
+    }
+
+    &:backdrop,
+    &:backdrop:hover {
+      &.maximize, &.minimize, &.close {
+        box-shadow: none;
+        border-color: $backdrop_borders_color;
+        background-image: -gtk-scaled(url('assets/titlebutton.png'), url('assets/titlebutton@2.png'));
+        background-color: $shadow_color;
+      }
+    }
+  }
+
+  &.default-decoration {
+    min-height: 0;
+    padding: 6px;
+    box-shadow: none;
+    background: image(darken($bg_color, if($variant == 'light', 7%, 5%)));
+
+    &:backdrop { background: image($bg_color); }
+
+    button.titlebutton {
+      min-height: 0;
+      min-width: 0;
+
+      &, &:last-child {
+        margin: 0;
+      }
+    }
   }
 }
 
@@ -486,15 +564,20 @@ placessidebar {
  *********************/
 decoration {
   $_border_width: 1px;
-  border-radius: $window_radius+$_border_width $window_radius+$_border_width $button_radius+$_border_width $button_radius+$_border_width;
+  $_top_window_radius: $window_radius+$_border_width;
+  $_bottom_window_radius: min($button_radius+$_border_width, 6px);
+  border-radius: $_top_window_radius $_top_window_radius $_bottom_window_radius $_bottom_window_radius;
   border: $_border_width solid $base_color;
+  border-bottom-width: 2px;
+  background: $bg_color;
 
   box-shadow: 0 2px 8px 0 transparentize(black, 0.6),
               0 0 0 1px $_wm_border;
 
   &:backdrop {
     box-shadow: 0 2px 8px 0 transparent,
-                0 0 0 3px transparentize(black, if($variant == 'light', .85, .75));
+                0 0 5px 3px transparentize(black, if($variant == 'light', .85, .75)),
+                0 0 0 1px if($variant=='light', transparentize(black, 0.97), transparentize(black, 0.25));
   }
 
   .maximized &,
@@ -523,68 +606,5 @@ decoration {
   messagedialog.csd & {
     border-width: 0;
     box-shadow: 0 1px 4px transparentize(black, 0.8);
-  }
-}
-
-// Window Close button
-button.titlebutton:not(.appmenu) {
-  $_titlebutton_bg: lighten($bg_color, 10%);
-  color: transparent;
-  background: $_titlebutton_bg;
-  margin: 0;
-  margin-left: 5px;
-  padding: 0;
-  min-width: 0;
-  min-height: 0;
-  border: 1px solid $alt_borders_color;
-  box-shadow: $_widget_inset_shadow;
-  -gtk-icon-shadow: none;
-  transition: all .2s;
-
-  & + & { margin-left: 0; }
-  &:last-child { margin-right: 5px; }
-
-  @at-root %titlebutton_hover,
-  &:hover {
-    color: $fg_color;
-    background: $_titlebutton_bg;
-    border-color: transparent;
-    box-shadow: 0 0 0 1px $borders_color;
-  }
-
-  &.close {
-    color: if($variant=='light', white, black);
-    background: $selected_bg_color;
-    border-color: transparent;
-
-    &:hover {
-      color: if($variant=='light', black, white);
-      background: mix(white, $selected_bg_color, 10%);
-    }
-
-    @if lightness($selected_bg_color) > 60%
-     or lightness($selected_bg_color) < 20% {
-      &, &:hover { color: $selected_fg_color; }
-    }
-  }
-
-  .maximized &,
-  .fullscreen &,
-  .tiled &,
-  .tiled-top &,
-  .tiled-right &,
-  .tiled-bottom &,
-  .tiled-left & {
-      &:last-child { margin-right: 0; }
-      &:first-child { margin-left: 0; }
-  }
-
-  &:backdrop,
-  &:backdrop:hover {
-    color: transparent;
-    background: transparent;
-    box-shadow: none;
-    border-color: $backdrop_borders_color;
-    background: $shadow_color;
   }
 }

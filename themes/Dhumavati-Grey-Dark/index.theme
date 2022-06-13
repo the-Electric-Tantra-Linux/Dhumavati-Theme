@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Dhumavati-Grey-Dark
+Comment=Dhumavati-Grey-Dark theme"
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Dhumavati-Grey-Dark
+MetacityTheme=Dhumavati-Grey-Dark
+IconTheme=Flat-Remix-Grey-Dark
+CursorTheme=chhinamasta
+ButtonLayout=:minimize,maximize,close

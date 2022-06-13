@@ -1,9 +1,16 @@
-# Dhumavati Theme
+Dhumavati GTK
+===
 
-A dark, skeudomorphic GTK3 theme which is part of the Electric Tantra Linux.
+This is a fork, recolor and modification of the [Skeuos theme by daniruiz](https://github.com/daniruiz/skeuos-gtk)
 
+It conforms to the color scheme used in the Electric Tantra Linux and is its default theme. 
 
-> For the themes themselves, just checkout the releases page of this repository and each one is available from there.
+For the license and information about using, modifying and otherwise copying the theme, see LICENSE. 
 
+## Name
 
-This project began life as a fork of [skeuos-gtk by daniruiz](https://github.com/daniruiz/skeuos-gtk) and continues to mutate from there haphazardly.
+Dhumavati is the Tantric Goddess of Death often conflated with Alakshmi, Goddess of Misfortune and sister to the Goddess of Fortune, Lakshmi the Shakti of Lord Vishnu. 
+
+Unlike Alakshmi, Dhumavati is not inauspicious, but She reminds us that our time is coming and not to waste it, much like Kali-Ma. 
+
+For more information and an excellent rendention of mantras to the Mother, [see Chant Central's Dhumavati Mantra Jaap](https://www.youtube.com/watch?v=Hp1HubAcaTQ)
