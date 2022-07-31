@@ -1,5 +1,5 @@
-PKGNAME = dhumavati-gtk
-MAINTAINER = Thomas Leon Highbaugh <thighbaugh@zoho.com>
+PKGNAME = Dhumavati-gtk
+MAINTAINER = Daniel Ruiz de Alegría <daniel@drasite.com>
 PREFIX ?= /usr
 THEMES ?= $(patsubst themes/%/,%,$(wildcard themes/*/))
 
@@ -37,10 +37,20 @@ dist: _get_version
 
 release: _get_version
 	$(MAKE) generate_changelog VERSION=$(VERSION)
+	$(MAKE) aur_release VERSION=$(VERSION)
 	git tag -f $(VERSION)
 	git push origin --tags
 	$(MAKE) dist
 
+aur_release: _get_version
+	cd aur; \
+	sed "s/pkgver=.*/pkgver=$(VERSION)/" -i PKGBUILD; \
+	sed "s/pkgver =.*/pkgver = $(VERSION)/" -i .SRCINFO; \
+	git commit -a -m "$(VERSION)"; \
+	git push origin master;
+
+	git commit aur -m "Update aur version $(VERSION)"
+	git push origin master
 
 generate_changelog: _get_version _get_tag
 	git checkout $(TAG) CHANGELOG

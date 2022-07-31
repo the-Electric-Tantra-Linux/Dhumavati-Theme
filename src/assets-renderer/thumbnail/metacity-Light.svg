@@ -16,7 +16,7 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview7"
-     pagecolor="#ffffff"
+     pagecolor="#f4f4f7"
      bordercolor="#111111"
      borderopacity="1"
      inkscape:pageshadow="0"
@@ -168,7 +168,7 @@
          rx="2.1166666"
          ry="2.1166666" />
       <rect
-         style="opacity:1;fill:#ffffff;stroke:none;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+         style="opacity:1;fill:#f4f4f7;stroke:none;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
          id="rect1104"
          width="42.65863"
          height="17.579035"
@@ -185,7 +185,7 @@
            y="561.35999"
            width="20"
            height="20"
-           fill="#ffffff"
+           fill="#f4f4f7"
            stroke-width="0.71429"
            id="rect34" />
         <path
@@ -193,7 +193,7 @@
            color="#000000"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#2777ff"
+           fill="#555e70"
            image-rendering="auto"
            shape-rendering="auto"
            solid-color="#000000"
@@ -204,7 +204,7 @@
            color="#000000"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#2777ff"
+           fill="#555e70"
            image-rendering="auto"
            shape-rendering="auto"
            solid-color="#000000"
@@ -215,7 +215,7 @@
            d="m 15.003,567.36 h 0.99968 c 0.01066,-1.4e-4 0.02079,-4.8e-4 0.0312,0 0.25487,0.0107 0.5097,0.12852 0.68728,0.31248 l 2.2804,2.2813 2.3118,-2.2813 c 0.26553,-0.2305 0.44652,-0.30549 0.68727,-0.31248 h 0.99968 v 1 c 0,0.28648 -0.03426,0.55065 -0.24991,0.75002 l -2.2804,2.2813 2.2492,2.25 c 0.18813,0.18817 0.28115,0.45345 0.28115,0.71877 v 1 h -0.99968 c -0.2652,-10e-6 -0.5304,-0.093 -0.71851,-0.28127 l -2.2804,-2.2812 -2.2804,2.2812 c -0.1881,0.18821 -0.45332,0.28127 -0.71853,0.28127 h -0.99968 v -1 c 0,-0.2653 0.09303,-0.5306 0.28117,-0.71877 l 2.2804,-2.25 -2.2804,-2.2813 c -0.21066,-0.19464 -0.30305,-0.46926 -0.28117,-0.75002 v -1 z"
            color="#bebebe"
            enable-background="new"
-           fill="#ffffff"
+           fill="#f4f4f7"
            stroke-width="1.3332"
            id="path38"
            style="fill:#c21953;fill-opacity:1" />
@@ -229,21 +229,21 @@
            y="594.35999"
            width="20"
            height="20"
-           fill="#ffffff"
+           fill="#f4f4f7"
            stroke-width="0.71429"
            id="rect64" />
         <path
            d="m 19,595.86 c -4.6944,0 -8.5,3.8056 -8.5,8.5 0,4.6945 3.8056,8.5 8.5,8.5 4.6944,0 8.5,-3.8056 8.5,-8.5 0,-4.6944 -3.8056,-8.5 -8.5,-8.5 z"
            fill="url(#radialGradient1090-7-9)"
            stroke="#bababa"
-           style="fill:#ffffff;stroke:#c2c2c2"
+           style="fill:#f4f4f7;stroke:#c2c2c2"
            id="path66" />
         <path
            d="m 19,596.36 c -4.4122,0 -8,3.5878 -8,8 0,4.4123 3.5878,8 8,8 4.4122,0 8,-3.5878 8,-8 0,-4.4122 -3.5878,-8 -8,-8 z"
            color="#000000"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#2777ff"
+           fill="#555e70"
            image-rendering="auto"
            shape-rendering="auto"
            solid-color="#000000"
@@ -260,21 +260,21 @@
            y="627.35999"
            width="20"
            height="20"
-           fill="#ffffff"
+           fill="#f4f4f7"
            stroke-width="0.71429"
            id="rect90" />
         <path
            d="m 19,628.86 c -4.6944,0 -8.5,3.8056 -8.5,8.5 0,4.6945 3.8056,8.5 8.5,8.5 4.6944,0 8.5,-3.8056 8.5,-8.5 0,-4.6944 -3.8056,-8.5 -8.5,-8.5 z"
            fill="url(#radialGradient1090-7-93)"
            stroke="#bababa"
-           style="fill:#ffffff;stroke:#c2c2c2"
+           style="fill:#f4f4f7;stroke:#c2c2c2"
            id="path92" />
         <path
            d="m 19,629.36 c -4.4122,0 -8,3.5878 -8,8 0,4.4123 3.5878,8 8,8 4.4122,0 8,-3.5878 8,-8 0,-4.4122 -3.5878,-8 -8,-8 z"
            color="#000000"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#2777ff"
+           fill="#555e70"
            image-rendering="auto"
            shape-rendering="auto"
            solid-color="#000000"

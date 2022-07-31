@@ -1,5 +1,5 @@
 /* Nautilus */
-@define-color disk_space_unknown #383c4a;
+@define-color disk_space_unknown #2f303d;
 @define-color disk_space_used #{"" +$selected_bg_color};
 @define-color disk_space_free white;
 
@@ -15,7 +15,6 @@ filechooser,
     &:dir(rtl) {
       background-image: linear-gradient(to left, darken($bg_color, 4%) 41px, $bg_color 0);
     }
-
     &:backdrop { background-image: none; }
 
     row.sidebar-row {
@@ -262,19 +261,6 @@ XfdesktopIconView.rubberband {
       }
     }
   }
-}
-
-/* XFCE4 desktop */
-XfdesktopIconView.view {
-  background-color: transparent;
-  color: white;
-  text-shadow: 0 1px 3px black;
-}
-
-XfdesktopIconView.view:active {
-  background-color: rgba(255, 255, 255, .2);
-  color: white;
-  text-shadow: 0 1px 3px black;
 }
 
 /* Thunar */

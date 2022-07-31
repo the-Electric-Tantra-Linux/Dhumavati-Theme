@@ -27,8 +27,8 @@
 		</clipPath>
 	</defs>
 	<rect id="menu-active" x="10" y="115.35" width="26" height="16" fill="#23252e"/>
-	<use id="menu-pressed" transform="translate(31 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" xlink:href="#menu-active"/>
-	<use id="menu-inactive" transform="translate(62 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" xlink:href="#menu-active"/>
+	<use id="menu-pressed" transform="translate(31 -2.0352e-5)" width="100%" height="100%" fill="#f4f4f7" xlink:href="#menu-active"/>
+	<use id="menu-inactive" transform="translate(62 -2.0352e-5)" width="100%" height="100%" fill="#f4f4f7" xlink:href="#menu-active"/>
 	<g id="title-1-active" transform="translate(1.4109e-5 5.2093e-5)">
 		<g id="" transform="matrix(.17857 0 0 1 9.1072 -415.01)">
 			<rect x="5" y="557.36" width="28" height="31" fill="#23252e" style="stroke-width:1.01"/>
@@ -49,9 +49,9 @@
 		<path d="m15.5 179.35c3.047 0 5.5 2.453 5.5 5.5v27c0 3.047-2.453 5.5-5.5 5.5s-5.5-2.453-5.5-5.5v-27c0-3.047 2.453-5.5 5.5-5.5z" style="fill:none;opacity:.5;stroke-linecap:square;stroke-width:1.01;stroke:#000"/>
 	</g>
 	<rect x="9.5" y="178.85" width="7" height="28" fill="none"/>
-	<use id="top-left-inactive" transform="translate(8)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
-	<use id="top-right-active" transform="matrix(-1 0 0 1 41 0)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
-	<use id="top-right-inactive" transform="matrix(-1 0 0 1 49 0)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
+	<use id="top-left-inactive" transform="translate(8)" width="100%" height="100%" fill="#f4f4f7" xlink:href="#top-left-active"/>
+	<use id="top-right-active" transform="matrix(-1 0 0 1 41 0)" width="100%" height="100%" fill="#f4f4f7" xlink:href="#top-left-active"/>
+	<use id="top-right-inactive" transform="matrix(-1 0 0 1 49 0)" width="100%" height="100%" fill="#f4f4f7" xlink:href="#top-left-active"/>
 	<g id="left-active" transform="translate(25.281 -32.49)">
 		<rect x="56.719" y="186.84" width="5" height="16" fill="#23252e" style="stroke-width:1.01"/>
 		<rect transform="scale(-1,1)" x="-57.719" y="186.84" width="1" height="16" opacity=".5"/>
@@ -64,27 +64,27 @@
 	<g id="bottom-left-active" transform="translate(-55.41 -20.63)" clip-path="url(#b)">
 		<path transform="translate(55.408,19.279)" d="m58.447 193.35h13.555l-0.0025-4.999-13.553-1e-3z" fill="#23252e" style="fill:#23252e;stroke-width:1.01"/>
 		<path d="m113.92 212.62 12.429-9.9e-4v-0.999l-12.429-1e-5z" opacity=".5"/>
-		<use transform="matrix(1,0,0,-1,99.908,391.48)" width="100%" height="100%" clip-path="url(#clipPath6191)" fill="#ffffff" xlink:href="#top-left-active"/>
+		<use transform="matrix(1,0,0,-1,99.908,391.48)" width="100%" height="100%" clip-path="url(#clipPath6191)" fill="#f4f4f7" xlink:href="#top-left-active"/>
 	</g>
 	<use id="bottom-right-active" transform="rotate(-90 79 167)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
 	<use id="bottom-right-inactive" transform="rotate(-90 89 177)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
 	<use id="bottom-left-inactive" transform="translate(3.3789e-7 20)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
 	<g id="close-active" transform="translate(1 -551.36)">
 		<rect x="9" y="561.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
-		<path d="m19 563.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fff;opacity:.05;stroke-width:1.01"/>
-		<path d="m19 562.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="stroke-width:1.01"/>
+		<path d="m19 563.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fff;opacity:.05;stroke-width:1.01"/>
+		<path d="m19 562.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="stroke-width:1.01"/>
 		<path d="m15.003 567.36h0.99968c0.01066-1.4e-4 0.02079-4.8e-4 0.0312 0 0.25487 0.0107 0.5097 0.12853 0.68728 0.31249l2.2804 2.2813 2.3118-2.2813c0.26553-0.23051 0.44652-0.3055 0.68727-0.31249h0.99968v1c0 0.28648-0.03426 0.55066-0.24991 0.75002l-2.2804 2.2813 2.2492 2.25c0.18813 0.18818 0.28115 0.45345 0.28115 0.71877v1h-0.99968c-0.2652-1e-5 -0.5304-0.093-0.71851-0.28128l-2.2804-2.2812-2.2804 2.2812c-0.1881 0.18821-0.45332 0.28128-0.71853 0.28128h-0.99968v-1c0-0.2653 0.09303-0.53059 0.28117-0.71877l2.2804-2.25-2.2804-2.2813c-0.21066-0.19464-0.30305-0.46926-0.28117-0.75002v-1z" color="#bebebe" enable-background="new" stroke-width="1.3332"/>
-		<path d="m19 563.36c-4.4122 0-8 3.5878-8 8 0 4.4123 3.5878 8 8 8s8-3.5878 8-8-3.5878-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:url(#linearGradient1080);stroke-width:.889"/>
+		<path d="m19 563.36c-4.4122 0-8 3.5878-8 8 0 4.4123 3.5878 8 8 8s8-3.5878 8-8-3.5878-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:url(#linearGradient1080);stroke-width:.889"/>
 	</g>
 	<g id="close-prelight" transform="matrix(1.0573 0 0 1.0573 -13.977 -584.07)">
 		<rect x="42.51" y="561.9" width="18.917" height="18.917" fill="#23252e" stroke-width=".67561"/>
-		<path d="m51.998 562.35c-4.959 0-8.9852 4.0264-8.9852 8.9852s4.0261 8.9851 8.9852 8.9851c4.959 0 8.9852-4.0264 8.9852-8.9851s-4.0261-8.9852-8.9852-8.9852z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="stroke-width:.94581;stroke:#0d0e11"/>
+		<path d="m51.998 562.35c-4.959 0-8.9852 4.0264-8.9852 8.9852s4.0261 8.9851 8.9852 8.9851c4.959 0 8.9852-4.0264 8.9852-8.9851s-4.0261-8.9852-8.9852-8.9852z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="stroke-width:.94581;stroke:#0d0e11"/>
 		<path d="m51.998 562.88c-4.6673 0-8.4566 3.7896-8.4566 8.4566s3.7893 8.4566 8.4566 8.4566 8.4566-3.7896 8.4566-8.4566-3.7893-8.4566-8.4566-8.4566z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" opacity=".1" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fff;opacity:.2"/>
 		<path d="m49.163 568.5h0.7091c0.0076-9e-5 0.01474-3.3e-4 0.02213 0 0.18079 8e-3 0.36155 0.0912 0.4875 0.22165l1.6175 1.6182 1.6398-1.6182c0.18835-0.1635 0.31673-0.21669 0.4875-0.22165h0.7091v0.70932c0 0.2032-0.0243 0.39059-0.17727 0.532l-1.6175 1.6182 1.5954 1.596c0.13344 0.13348 0.19942 0.32164 0.19942 0.50984v0.70933h-0.7091c-0.18812-1e-5 -0.37622-0.066-0.50966-0.19951l-1.6175-1.6181-1.6175 1.6181c-0.13343 0.1335-0.32155 0.19951-0.50967 0.19951h-0.7091v-0.70933c0-0.18818 0.06599-0.37636 0.19944-0.50984l1.6175-1.596-1.6175-1.6182c-0.14942-0.13806-0.21496-0.33286-0.19944-0.532v-0.70932z" color="#bebebe" enable-background="new" fill="#fff" stroke-width="1.092" style="fill:#010101"/>
 	</g>
 	<g id="close-pressed" transform="translate(-23 -551.36)">
 		<rect x="75" y="561.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
-		<path d="m85 562.36c-4.9638 0-9 4.0362-9 9s4.0362 9 9 9 9-4.0362 9-9-4.0362-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="stroke-width:1.01"/>
+		<path d="m85 562.36c-4.9638 0-9 4.0362-9 9s4.0362 9 9 9 9-4.0362 9-9-4.0362-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="stroke-width:1.01"/>
 		<path d="m82.002 568.36h0.74972c8e-3 -9e-5 0.01559-3.5e-4 0.02339 0 0.19115 8e-3 0.38226 0.0964 0.51543 0.23436l1.7102 1.7109 1.7338-1.7109c0.19914-0.17286 0.33488-0.22911 0.51543-0.23436h0.74972v0.74998c0 0.21484-0.02569 0.41297-0.18743 0.56248l-1.7102 1.7109 1.6868 1.6874c0.14109 0.14112 0.21085 0.34008 0.21085 0.53905v0.74998h-0.74972c-0.19889 0-0.39778-0.0698-0.53886-0.21093l-1.7102-1.7108-1.7102 1.7108c-0.14108 0.14114-0.33997 0.21093-0.53887 0.21093h-0.74972v-0.74998c0-0.19896 0.06977-0.39793 0.21086-0.53905l1.7102-1.6874-1.7102-1.7109c-0.15799-0.14597-0.22728-0.35193-0.21086-0.56248v-0.74998z" color="#bebebe" enable-background="new" opacity=".5" stroke-width="1.1545"/>
 	</g>
 	<g id="close-inactive" transform="translate(-35 -551.36)">
@@ -93,9 +93,9 @@
 	</g>
 	<g id="maximize-active" transform="translate(1 -563.36)">
 		<rect x="9" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
-		<path d="m19 596.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fff;opacity:.05;stroke-width:1.01"/>
+		<path d="m19 596.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fff;opacity:.05;stroke-width:1.01"/>
 		<path d="m19 595.86c-4.6944 0-8.5 3.8056-8.5 8.5 0 4.6945 3.8056 8.5 8.5 8.5s8.5-3.8056 8.5-8.5-3.8056-8.5-8.5-8.5z" fill="url(#radialGradient1090-7)" stroke="#020202" style="fill:#383d4b;stroke:#000"/>
-		<path d="m19 596.36c-4.4122 0-8 3.5878-8 8 0 4.4123 3.5878 8 8 8s8-3.5878 8-8-3.5878-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:url(#linearGradient1080-6);stroke-width:.889"/>
+		<path d="m19 596.36c-4.4122 0-8 3.5878-8 8 0 4.4123 3.5878 8 8 8s8-3.5878 8-8-3.5878-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:url(#linearGradient1080-6);stroke-width:.889"/>
 	</g>
 	<g id="maximize-prelight" transform="translate(-11 -563.36)">
 		<rect x="42" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
@@ -113,9 +113,9 @@
 	</g>
 	<g id="hide-active" transform="translate(1 -575.36)">
 		<rect x="9" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
-		<path d="m19 629.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fff;opacity:.05;stroke-width:1.01"/>
+		<path d="m19 629.36c-4.9637 0-9 4.0363-9 9 0 4.9638 4.0363 9 9 9s9-4.0363 9-9-4.0363-9-9-9z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fff;opacity:.05;stroke-width:1.01"/>
 		<path d="m19 628.86c-4.6944 0-8.5 3.8056-8.5 8.5 0 4.6945 3.8056 8.5 8.5 8.5s8.5-3.8056 8.5-8.5-3.8056-8.5-8.5-8.5z" fill="url(#radialGradient1090-7-3)" stroke="#020202" style="fill:#383d4b;stroke:#000"/>
-		<path d="m19 629.36c-4.4122 0-8 3.5878-8 8 0 4.4123 3.5878 8 8 8s8-3.5878 8-8-3.5878-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:url(#linearGradient1080-62);stroke-width:.889"/>
+		<path d="m19 629.36c-4.4122 0-8 3.5878-8 8 0 4.4123 3.5878 8 8 8s8-3.5878 8-8-3.5878-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#555e70" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:url(#linearGradient1080-62);stroke-width:.889"/>
 	</g>
 	<g id="hide-prelight" transform="translate(-11 -575.36)">
 		<rect x="42" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
