@@ -1,6 +1,9 @@
 Dhumavati GTK
 ===
+![Screenshot](https://github.com/the-Electric-Tantra-Linux/Dhumavati-Theme/blob/main/.github/assets/2.png)
 
+
+===
 This is a fork, recolor and modification of the [Skeuos theme by daniruiz](https://github.com/daniruiz/skeuos-gtk)
 
 It conforms to the color scheme used in the Electric Tantra Linux and is its default theme. 
