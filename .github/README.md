@@ -1,6 +1,8 @@
 Dhumavati GTK
 ===
-![Screenshot](https://github.com/the-Electric-Tantra-Linux/Dhumavati-Theme/blob/main/.github/assets/2.png)
+
+![Screenshot 1](https://github.com/the-Electric-Tantra-Linux/Dhumavati-Theme/blob/main/.github/assets/1.png)
+![Screenshot 2](https://github.com/the-Electric-Tantra-Linux/Dhumavati-Theme/blob/main/.github/assets/2.png)
 
 
 ===
