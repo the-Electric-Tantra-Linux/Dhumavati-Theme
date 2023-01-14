@@ -75,11 +75,11 @@
        y2="31"
        gradientUnits="userSpaceOnUse">
       <stop
-         style="stop-color:#0f1116"
+         style="stop-color:#121212"
          offset="0"
          id="stop65" />
       <stop
-         style="stop-color:#0f1116"
+         style="stop-color:#121212"
          offset=".93333"
          id="stop67" />
       <stop
@@ -159,7 +159,7 @@
        id="g10474"
        transform="translate(0.02888259,1.7423574)">
       <rect
-         style="opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter2730)"
+         style="opacity:0.8;fill:#0c0c0c;fill-opacity:1;stroke:none;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter2730)"
          id="rect2558"
          width="42.65863"
          height="17.579035"
@@ -190,25 +190,25 @@
            id="rect34" />
         <path
            d="m 19,562.36 c -4.9637,0 -9,4.0363 -9,9 0,4.9638 4.0363,9 9,9 4.9637,0 9,-4.0363 9,-9 0,-4.9637 -4.0363,-9 -9,-9 z"
-           color="#000000"
+           color="#0c0c0c"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#555e70"
+           fill="#555555"
            image-rendering="auto"
            shape-rendering="auto"
-           solid-color="#000000"
-           stop-color="#000000"
+           solid-color="#0c0c0c"
+           stop-color="#0c0c0c"
            id="path36" />
         <path
            d="m 19,563.36 c -4.4122,0 -8,3.5878 -8,8 0,4.4123 3.5878,8 8,8 4.4122,0 8,-3.5878 8,-8 0,-4.4122 -3.5878,-8 -8,-8 z"
-           color="#000000"
+           color="#0c0c0c"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#555e70"
+           fill="#555555"
            image-rendering="auto"
            shape-rendering="auto"
-           solid-color="#000000"
-           stop-color="#000000"
+           solid-color="#0c0c0c"
+           stop-color="#0c0c0c"
            style="fill:url(#linearGradient1080);stroke-width:0.889"
            id="path40" />
         <path
@@ -218,7 +218,7 @@
            fill="#f4f4f7"
            stroke-width="1.3332"
            id="path38"
-           style="fill:#c21953;fill-opacity:1" />
+           style="fill:#666666;fill-opacity:1" />
       </g>
       <g
          id="maximize-active"
@@ -240,14 +240,14 @@
            id="path66" />
         <path
            d="m 19,596.36 c -4.4122,0 -8,3.5878 -8,8 0,4.4123 3.5878,8 8,8 4.4122,0 8,-3.5878 8,-8 0,-4.4122 -3.5878,-8 -8,-8 z"
-           color="#000000"
+           color="#0c0c0c"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#555e70"
+           fill="#555555"
            image-rendering="auto"
            shape-rendering="auto"
-           solid-color="#000000"
-           stop-color="#000000"
+           solid-color="#0c0c0c"
+           stop-color="#0c0c0c"
            style="fill:url(#linearGradient1080-2);stroke-width:0.889"
            id="path68" />
       </g>
@@ -271,14 +271,14 @@
            id="path92" />
         <path
            d="m 19,629.36 c -4.4122,0 -8,3.5878 -8,8 0,4.4123 3.5878,8 8,8 4.4122,0 8,-3.5878 8,-8 0,-4.4122 -3.5878,-8 -8,-8 z"
-           color="#000000"
+           color="#0c0c0c"
            color-rendering="auto"
            dominant-baseline="auto"
-           fill="#555e70"
+           fill="#555555"
            image-rendering="auto"
            shape-rendering="auto"
-           solid-color="#000000"
-           stop-color="#000000"
+           solid-color="#0c0c0c"
+           stop-color="#0c0c0c"
            style="fill:url(#linearGradient1080-7);stroke-width:0.889"
            id="path94" />
       </g>

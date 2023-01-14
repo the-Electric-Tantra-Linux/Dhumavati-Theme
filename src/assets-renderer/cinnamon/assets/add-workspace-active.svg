@@ -1,1 +1,73 @@
-<svg version="1.1" viewBox="0 0 35 200" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0 -852.36)"><path transform="translate(0 852.36)" d="m3 0c-1.662 0-3 1.338-3 3v194c0 1.662 1.338 3 3 3h33c1.662 0 3-1.338 3-3v-194c0-1.662-1.338-3-3-3h-33zm0 1h33c1.108 0 2 0.892 2 2v194c0 1.108-0.892 2-2 2h-33c-1.108 0-2-0.892-2-2v-194c0-1.108 0.892-2 2-2z" style="fill:#596eb5;stroke-width:0"/><rect x="1" y="853.36" width="37" height="198" rx="2" ry="2" style="fill:#555e70;stroke-width:0"/><g style="fill:#fff"><rect x="17" y="944.36" width="2" height="16" ry="1.1429" style="fill:#fff;stroke-width:0"/><rect transform="rotate(90)" x="951.36" y="-26" width="2" height="16" ry="1.1429" style="fill:#fff;stroke-width:0"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="20.008678"
+   height="20.010565"
+   version="1.1"
+   id="svg1534"
+   sodipodi:docname="add-workspace.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1538" />
+  <sodipodi:namedview
+     id="namedview1536"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.3274935"
+     inkscape:cx="5.5459355"
+     inkscape:cy="24.147928"
+     inkscape:window-width="842"
+     inkscape:window-height="865"
+     inkscape:window-x="804"
+     inkscape:window-y="8"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1532" />
+  <rect
+     width="19.008854"
+     height="19.01074"
+     x="0.49991199"
+     y="0.49991199"
+     fill="#181818"
+     stroke="#0c0c0c"
+     stroke-linejoin="round"
+     stroke-width="0.999824"
+     color="#202020"
+     rx="2.8384669"
+     ry="2.8841498"
+     id="rect2" />
+  <g
+     transform="translate(-8.0157769,-942.26047)"
+     id="g1532">
+    <g
+       fill="#bbbbbb"
+       id="g1530"
+       style="fill:#e9e9e9;fill-opacity:1">
+      <rect
+         width="2"
+         height="16"
+         x="17"
+         y="944.362"
+         ry="1.143"
+         id="rect1526"
+         style="fill:#e9e9e9;fill-opacity:1" />
+      <rect
+         width="2"
+         height="16"
+         x="951.362"
+         y="-26"
+         ry="1.143"
+         transform="rotate(90)"
+         id="rect1528"
+         style="fill:#e9e9e9;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

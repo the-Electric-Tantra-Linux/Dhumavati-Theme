@@ -1,8 +1,8 @@
-$selected_bg_color: #555e70;
+$selected_bg_color: #555555;
 $selected_fg_color: #f4f4f7;
-$variant: 'light';
-$full-panel: 'false';
-$asset_suffix: '';
+$variant: "light";
+$full-panel: "false";
+$asset_suffix: "";
 
 @import "common/_colors"; //use gtk colors
 @import "gnome-shell-40/upstream/gnome-shell-sass/_drawing";

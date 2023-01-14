@@ -4,16 +4,16 @@
 //   you need a subtle shade
 // - if you need to inverse a color function use the @if directive to match for dark $variant
 
-$variant: 'light';
-$high-contrast:'false';
-$selected_bg_color: #555e70;
+$variant: "light";
+$high-contrast: "false";
+$selected_bg_color: #555555;
 $selected_fg_color: #f4f4f7;
 
-@import 'common/_colors';
-@import 'gtk3/upstream/_drawing';
-@import 'gtk3/upstream/_common';
-@import 'gtk3/upstream/libhandy/Adwaita-base';
-@import 'gtk3/_common-tweaks';
-@import 'gtk3/_applications';
-@import 'gtk3/_budgie';
-@import 'gtk3/upstream/_colors-public';
+@import "common/_colors";
+@import "gtk3/upstream/_drawing";
+@import "gtk3/upstream/_common";
+@import "gtk3/upstream/libhandy/Adwaita-base";
+@import "gtk3/_common-tweaks";
+@import "gtk3/_applications";
+@import "gtk3/_budgie";
+@import "gtk3/upstream/_colors-public";

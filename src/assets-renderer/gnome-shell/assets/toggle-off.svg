@@ -1,1 +1,4 @@
-<svg version="1.1" viewBox="0 0 48 26" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(-1 0 0 1 0 -291.18)"><rect x="-48" y="292.18" width="48" height="24" rx="12" ry="12" style="fill:#ccc"/><rect x="-22" y="294.18" width="20" height="20" rx="10" ry="10" style="fill:#fff"/></g></svg>
+<svg viewBox="0 0 46 22">
+  <path fill="#444" d="M11.08.035C5.03.035.125 4.748.125 10.607v.766c0 5.859 4.904 10.572 10.955 10.572h23.535c6.05 0 10.955-4.714 10.955-10.572v-.766C45.57 4.748 40.666.035 34.615.035z" color="#1c1c1c" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#1c1c1c;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <rect width="19.233" height="19.022" x="1.498" y="1.479" fill="#181818" rx="9.511" ry="9.511"/>
+</svg>
